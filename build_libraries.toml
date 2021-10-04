@@ -1,0 +1,229 @@
+[versions]
+androidx_activity = "1.2.3"
+androidx_annotation = "1.1.0"
+androidx_app_compat = "1.2.0"
+androidx_cardview = "1.0.0"
+androidx_constraint_layout = "2.1.1"
+androidx_core = "1.1.0"
+androidx_core_ktx = "1.3.2"
+androidx_fragment = "1.3.2"
+androidx_fragment_testing = "1.1.0"
+androidx_legacy_preference_v14 = "1.0.0"
+androidx_legacy_support_v4 = "1.0.0"
+androidx_lifecycle = "2.2.0"
+androidx_lifecycle_viewmodel = "2.3.0"
+androidx_multidex = "2.0.1"
+androidx_navigation = "2.3.4"
+androidx_paging = "2.1.0"
+androidx_preference = "1.1.1"
+androidx_recycler_view = "1.1.0"
+androidx_test_espresso = "3.3.0-alpha02"
+androidx_test_espresso_core = "3.1.0"
+androidx_test_ext_junit = "1.1.2-alpha02"
+androidx_test_extensions = "1.1.1"
+androidx_test_orchestrator = "1.1.0"
+androidx_test_rules = "1.1.0"
+androidx_test_runner = "1.1.0"
+androidx_view_pager2 = "1.0.0"
+androidx_webkit = "1.4.0"
+bouncycastle = "1.67"
+chucker = "3.2.0"
+findaway = "8.1.5"
+firebase_analytics = "18.0.0"
+firebase_crashlytics = "17.3.0"
+google_auto_value = "1.7"
+google_exoplayer = "r1.5.15"
+google_guava = "27.1-android"
+google_material = "1.2.0"
+io7m_jfunctional = "1.3.0"
+io7m_jnull = "1.0.2"
+io7m_junreachable = "1.0.2"
+irradia_fieldrush = "0.0.17"
+irradia_mime = "1.1.1"
+irradia_opds2 = "0.0.7"
+jackson = "2.10.2"
+jackson_kotlin = "2.9.9"
+javax_annotation_api = "1.2-b01"
+javax_annotations = "1.2-b01"
+jcip = "1.0.2"
+jcip_annotations = "1.0-1"
+joda_time = "2.10.10"
+junit = "4.12"
+junit_jupiter = "5.7.1"
+kotlin = "1.5.30"
+kotlin_coroutines = "1.3.7"
+kxml = "2.3.0"
+leak_canary = "2.1"
+logback_android = "2.0.0"
+logback_classic = "1.3.0-alpha5"
+mockito = "2.27.0"
+mockito_android = "2.22.0"
+mockito_core = "3.4.4"
+mockito_kotlin = "2.2.0"
+mockwebserver = "4.9.0"
+moshi = "1.8.0"
+nano_httpd = "master-SNAPSHOT"
+nano_httpd_nanolets = "master-SNAPSHOT"
+nimbus_jose_jwt = "8.20"
+nypl_audiobook = "6.7.0"
+nypl_drm_adobe = "1.2.3"
+nypl_drm_axis = "1.0.2"
+nypl_drm_core = "1.2.3"
+nypl_findaway = "6.1.0"
+nypl_http = "0.0.24"
+nypl_overdrive = "1.0.5"
+nypl_pdf = "0.1.0"
+nypl_readium = "0.30.0"
+nypl_readium2 = "0.0.25"
+okhttp = "3.14.1"
+okhttp3 = "4.9.0"
+orgjson = "20200518"
+osgi_bundle_annotation = "1.0.0"
+osgi_bundle_version_annotation = "1.0.0"
+pandora_bottom_navigator = "ec834b9"
+picasso = "2.71828"
+quicktheories = "0.26"
+r2_opds = "2.0.0-beta.2"
+r2_shared = "29422a6e"
+r2_streamer = "2.0.0-beta.2"
+retrofit2 = "2.8.1"
+robolectric = "4.4"
+rxandroid = "2.1.1"
+rxjava = "1.3.8"
+rxjava2 = "2.2.21"
+rxjava2_extensions = "0.20.10"
+slf4j = "1.7.25"
+xmlpull = "1.1.3.1"
+
+[libraries]
+androidx_activity = { module = "androidx.activity:activity", version.ref = "androidx_activity" }
+androidx_annotation = { module = "androidx.annotation:annotation", version.ref = "androidx_annotation" }
+androidx_app_compat = { module = "androidx.appcompat:appcompat", version.ref = "androidx_app_compat" }
+androidx_cardview = { module = "androidx.cardview:cardview", version.ref = "androidx_cardview" }
+androidx_constraint_layout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "androidx_constraint_layout" }
+androidx_core = { module = "androidx.core:core", version.ref = "androidx_core" }
+androidx_core_ktx = { module = "androidx.core:core-ktx", version.ref = "androidx_core_ktx" }
+androidx_fragment = { module = "androidx.fragment:fragment-ktx", version.ref = "androidx_fragment" }
+androidx_fragment_testing = { module = "androidx.fragment:fragment-testing", version.ref = "androidx_fragment_testing" }
+androidx_legacy_preference_v14 = { module = "androidx.legacy:legacy-preference-v14", version.ref = "androidx_legacy_preference_v14" }
+androidx_legacy_support_v4 = { module = "androidx.legacy:legacy-support-v4", version.ref = "androidx_legacy_support_v4" }
+androidx_lifecycle = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "androidx_lifecycle" }
+androidx_lifecycle_viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel", version.ref = "androidx_lifecycle_viewmodel" }
+androidx_multidex = { module = "androidx.multidex:multidex", version.ref = "androidx_multidex" }
+androidx_navigation_fragment = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "androidx_navigation" }
+androidx_navigation_ui = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "androidx_navigation" }
+androidx_paging = { module = "androidx.paging:paging-runtime-ktx", version.ref = "androidx_paging" }
+androidx_preference = { module = "androidx.preference:preference-ktx", version.ref = "androidx_preference" }
+androidx_recycler_view = { module = "androidx.recyclerview:recyclerview", version.ref = "androidx_recycler_view" }
+androidx_test_espresso = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx_test_espresso" }
+androidx_test_espresso_core = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx_test_espresso_core" }
+androidx_test_ext_junit = { module = "androidx.test.ext:junit", version.ref = "androidx_test_ext_junit" }
+androidx_test_extensions = { module = "androidx.test.ext:junit", version.ref = "androidx_test_extensions" }
+androidx_test_orchestrator = { module = "androidx.test:orchestrator", version.ref = "androidx_test_orchestrator" }
+androidx_test_rules = { module = "androidx.test:rules", version.ref = "androidx_test_rules" }
+androidx_test_runner = { module = "androidx.test:runner", version.ref = "androidx_test_runner" }
+androidx_view_pager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "androidx_view_pager2" }
+androidx_webkit = { module = "androidx.webkit:webkit", version.ref = "androidx_webkit" }
+bouncycastle = { module = "org.bouncycastle:bcpg-jdk15on", version.ref = "bouncycastle" }
+bouncycastle_PKI = { module = "org.bouncycastle:bcpkix-jdk15on", version.ref = "bouncycastle" }
+bouncycastle_TLS = { module = "org.bouncycastle:bctls-jdk15on", version.ref = "bouncycastle" }
+chucker = { module = "com.github.ChuckerTeam.Chucker:library", version.ref = "chucker" }
+findaway = { module = "io.audioengine.mobile:all-android", version.ref = "findaway" }
+firebase_analytics = { module = "com.google.firebase:firebase-analytics", version.ref = "firebase_analytics" }
+firebase_crashlytics = { module = "com.google.firebase:firebase-crashlytics", version.ref = "firebase_crashlytics" }
+google_auto_value = { module = "com.google.auto.value:auto-value-annotations", version.ref = "google_auto_value" }
+google_auto_value_processor = { module = "com.google.auto.value:auto-value", version.ref = "google_auto_value" }
+google_exoplayer = { module = "com.google.android.exoplayer:exoplayer", version.ref = "google_exoplayer" }
+google_guava = { module = "com.google.guava:guava", version.ref = "google_guava" }
+google_material = { module = "com.google.android.material:material", version.ref = "google_material" }
+io7m_jfunctional = { module = "com.io7m.jfunctional:io7m-jfunctional-core", version.ref = "io7m_jfunctional" }
+io7m_jnull = { module = "com.io7m.jnull:io7m-jnull-core", version.ref = "io7m_jnull" }
+io7m_junreachable = { module = "com.io7m.junreachable:io7m-junreachable-core", version.ref = "io7m_junreachable" }
+irradia_fieldrush_api = { module = "one.irradia.fieldrush:one.irradia.fieldrush.api", version.ref = "irradia_fieldrush" }
+irradia_fieldrush_vanilla = { module = "one.irradia.fieldrush:one.irradia.fieldrush.vanilla", version.ref = "irradia_fieldrush" }
+irradia_mime_api = { module = "one.irradia.mime:one.irradia.mime.api", version.ref = "irradia_mime" }
+irradia_mime_vanilla = { module = "one.irradia.mime:one.irradia.mime.vanilla", version.ref = "irradia_mime" }
+irradia_opds2_api = { module = "one.irradia.opds2_0:one.irradia.opds2_0.api", version.ref = "irradia_opds2" }
+irradia_opds2_librarysimplified = { module = "one.irradia.opds2_0:one.irradia.opds2_0.library_simplified.api", version.ref = "irradia_opds2" }
+irradia_opds2_parser_api = { module = "one.irradia.opds2_0:one.irradia.opds2_0.parser.api", version.ref = "irradia_opds2" }
+irradia_opds2_parser_librarysimplified = { module = "one.irradia.opds2_0:one.irradia.opds2_0.parser.extension.library_simplified", version.ref = "irradia_opds2" }
+irradia_opds2_parser_vanilla = { module = "one.irradia.opds2_0:one.irradia.opds2_0.parser.vanilla", version.ref = "irradia_opds2" }
+jackson_core = { module = "com.fasterxml.jackson.core:jackson-core", version.ref = "jackson" }
+jackson_databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson" }
+jackson_kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson_kotlin" }
+javax_annotation_api = { module = "javax.annotation:javax.annotation-api", version.ref = "javax_annotations" }
+jcip = { module = "com.io7m.jcip:jcip-annotations", version.ref = "jcip" }
+jcip_annotations = { module = "com.github.stephenc.jcip:jcip-annotations", version.ref = "jcip_annotations" }
+joda_time = { module = "joda-time:joda-time", version.ref = "joda_time" }
+junit = { module = "junit:junit", version.ref = "junit" }
+junit_jupiter_api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit_jupiter" }
+junit_jupiter_engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit_jupiter" }
+kotlin_coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlin_coroutines" }
+kotlin_coroutines_android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlin_coroutines" }
+kotlin_reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
+kotlin_stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk7", version.ref = "kotlin" }
+kxml = { module = "net.sf.kxml:kxml2", version.ref = "kxml" }
+leak_canary = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leak_canary" }
+logback_android = { module = "com.github.tony19:logback-android", version.ref = "logback_android" }
+logback_classic = { module = "ch.qos.logback:logback-classic", version.ref = "logback_classic" }
+mockito = { module = "org.mockito:mockito-core", version.ref = "mockito" }
+mockito_android = { module = "org.mockito:mockito-android", version.ref = "mockito_android" }
+mockito_kotlin = { module = "com.nhaarman.mockitokotlin2:mockito-kotlin", version.ref = "mockito_kotlin" }
+mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "mockwebserver" }
+moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
+nano_httpd = { module = "com.github.edrlab.nanohttpd:nanohttpd", version.ref = "nano_httpd" }
+nano_httpd_nanolets = { module = "com.github.edrlab.nanohttpd:nanohttpd-nanolets", version.ref = "nano_httpd_nanolets" }
+nimbus_jose_jwt = { module = "com.nimbusds:nimbus-jose-jwt", version.ref = "nimbus_jose_jwt" }
+nypl_audiobook_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.api", version.ref = "nypl_audiobook" }
+nypl_audiobook_downloads = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.downloads", version.ref = "nypl_audiobook" }
+nypl_audiobook_feedbooks = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.feedbooks", version.ref = "nypl_audiobook" }
+nypl_audiobook_http = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.http", version.ref = "nypl_audiobook" }
+nypl_audiobook_manifest_fulfill_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.api", version.ref = "nypl_audiobook" }
+nypl_audiobook_manifest_fulfill_basic = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.basic", version.ref = "nypl_audiobook" }
+nypl_audiobook_manifest_fulfill_opa = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.opa", version.ref = "nypl_audiobook" }
+nypl_audiobook_manifest_fulfill_spi = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.spi", version.ref = "nypl_audiobook" }
+nypl_audiobook_manifest_license_check_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.license_check.api", version.ref = "nypl_audiobook" }
+nypl_audiobook_manifest_parser_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_parser.api", version.ref = "nypl_audiobook" }
+nypl_audiobook_manifest_parser_webpub = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_parser.webpub", version.ref = "nypl_audiobook" }
+nypl_audiobook_open_access = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.open_access", version.ref = "nypl_audiobook" }
+nypl_audiobook_parser_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.parser.api", version.ref = "nypl_audiobook" }
+nypl_audiobook_rbdigital = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.rbdigital", version.ref = "nypl_audiobook" }
+nypl_audiobook_views = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.views", version.ref = "nypl_audiobook" }
+nypl_drm_adobe = { module = "org.thepalaceproject.drm.adobe:org.librarysimplified.drm.adobe.provider", version.ref = "nypl_drm_adobe" }
+nypl_drm_axis = { module = "org.thepalaceproject.drm.axis:org.librarysimplified.drm.axis.provider", version.ref = "nypl_drm_axis" }
+nypl_drm_core = { module = "org.thepalaceproject.drm:org.librarysimplified.drm.core", version.ref = "nypl_drm_core" }
+nypl_findaway = { module = "org.thepalaceproject.audiobook.audioengine:org.librarysimplified.audiobook.audioengine.core", version.ref = "nypl_findaway" }
+nypl_http_api = { module = "org.librarysimplified.http:org.librarysimplified.http.api", version.ref = "nypl_http" }
+nypl_http_bearer_token = { module = "org.librarysimplified.http:org.librarysimplified.http.bearer_token", version.ref = "nypl_http" }
+nypl_http_downloads = { module = "org.librarysimplified.http:org.librarysimplified.http.downloads", version.ref = "nypl_http" }
+nypl_http_uri = { module = "org.librarysimplified.http:org.librarysimplified.http.uri_builder", version.ref = "nypl_http" }
+nypl_http_vanilla = { module = "org.librarysimplified.http:org.librarysimplified.http.vanilla", version.ref = "nypl_http" }
+nypl_overdrive = { module = "org.thepalaceproject.audiobook.overdrive:org.librarysimplified.audiobook.overdrive.main", version.ref = "nypl_overdrive" }
+nypl_pdf_api = { module = "edu.umn.minitex.pdf:edu.umn.minitex.pdf.api", version.ref = "nypl_pdf" }
+nypl_pdf_viewer = { module = "edu.umn.minitex.pdf:edu.umn.minitex.pdf.pdfviewer", version.ref = "nypl_pdf" }
+nypl_readium = { module = "org.librarysimplified:org.librarysimplified.readium", version.ref = "nypl_readium" }
+nypl_readium2_api = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.api", version.ref = "nypl_readium2" }
+nypl_readium2_vanilla = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.vanilla", version.ref = "nypl_readium2" }
+nypl_readium2_views = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.views", version.ref = "nypl_readium2" }
+nypl_readium_js = { module = "org.librarysimplified:org.librarysimplified.readium.shared_js", version.ref = "nypl_readium" }
+okhttp3 = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp3" }
+okhttp3_logging_interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp3" }
+okhttp3_mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "okhttp3" }
+org_json = { module = "org.json:json", version.ref = "orgjson" }
+osgi_bundle_annotation = { module = "org.osgi:org.osgi.annotation.bundle", version.ref = "osgi_bundle_annotation" }
+osgi_bundle_version_annotation = { module = "org.osgi:org.osgi.annotation.versioning", version.ref = "osgi_bundle_version_annotation" }
+pandora_bottom_navigator = { module = "com.github.qnga:BottomNavigator", version.ref = "pandora_bottom_navigator" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+quicktheories = { module = "org.quicktheories:quicktheories", version.ref = "quicktheories" }
+r2_opds = { module = "com.github.readium:r2-opds-kotlin", version.ref = "r2_opds" }
+r2_shared = { module = "com.github.readium:r2-shared-kotlin", version.ref = "r2_shared" }
+r2_streamer = { module = "com.github.readium:r2-streamer-kotlin", version.ref = "r2_streamer" }
+retrofit2 = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit2" }
+retrofit2_moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit2" }
+robolectric = { module = "org.robolectric:robolectric", version.ref = "robolectric" }
+rxandroid2 = { module = "io.reactivex.rxjava2:rxandroid", version.ref = "rxandroid" }
+rxjava = { module = "io.reactivex:rxjava", version.ref = "rxjava" }
+rxjava2 = { module = "io.reactivex.rxjava2:rxjava", version.ref = "rxjava2" }
+rxjava2_extensions = { module = "com.github.akarnokd:rxjava2-extensions", version.ref = "rxjava2_extensions" }
+slf4j = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
+xmlpull = { module = "xmlpull:xmlpull", version.ref = "xmlpull" }
