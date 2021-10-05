@@ -80,6 +80,7 @@ okhttp3 = "4.9.0"
 orgjson = "20200518"
 osgi_bundle_annotation = "1.0.0"
 osgi_bundle_version_annotation = "1.0.0"
+palace_findaway = "6.1.0"
 pandora_bottom_navigator = "ec834b9"
 picasso = "2.71828"
 quicktheories = "0.26"
@@ -192,7 +193,6 @@ nypl_audiobook_views = { module = "org.thepalaceproject.audiobook:org.librarysim
 nypl_drm_adobe = { module = "org.thepalaceproject.drm.adobe:org.librarysimplified.drm.adobe.provider", version.ref = "nypl_drm_adobe" }
 nypl_drm_axis = { module = "org.thepalaceproject.drm.axis:org.librarysimplified.drm.axis.provider", version.ref = "nypl_drm_axis" }
 nypl_drm_core = { module = "org.thepalaceproject.drm:org.librarysimplified.drm.core", version.ref = "nypl_drm_core" }
-nypl_findaway = { module = "org.thepalaceproject.audiobook.audioengine:org.librarysimplified.audiobook.audioengine.core", version.ref = "nypl_findaway" }
 nypl_http_api = { module = "org.librarysimplified.http:org.librarysimplified.http.api", version.ref = "nypl_http" }
 nypl_http_bearer_token = { module = "org.librarysimplified.http:org.librarysimplified.http.bearer_token", version.ref = "nypl_http" }
 nypl_http_downloads = { module = "org.librarysimplified.http:org.librarysimplified.http.downloads", version.ref = "nypl_http" }
@@ -212,6 +212,7 @@ okhttp3_mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version
 org_json = { module = "org.json:json", version.ref = "orgjson" }
 osgi_bundle_annotation = { module = "org.osgi:org.osgi.annotation.bundle", version.ref = "osgi_bundle_annotation" }
 osgi_bundle_version_annotation = { module = "org.osgi:org.osgi.annotation.versioning", version.ref = "osgi_bundle_version_annotation" }
+palace_findaway = { module = "org.thepalaceproject.audiobook.audioengine:org.librarysimplified.audiobook.audioengine.core", version.ref = "nypl_findaway" }
 pandora_bottom_navigator = { module = "com.github.qnga:BottomNavigator", version.ref = "pandora_bottom_navigator" }
 picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
 quicktheories = { module = "org.quicktheories:quicktheories", version.ref = "quicktheories" }
