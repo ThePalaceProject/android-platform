@@ -234,6 +234,7 @@ palace_findaway = { module = "org.thepalaceproject.audiobook.audioengine:org.lib
 pandora_bottom_navigator = { module = "com.github.qnga:BottomNavigator", version.ref = "pandora_bottom_navigator" }
 picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
 quicktheories = { module = "org.quicktheories:quicktheories", version.ref = "quicktheories" }
+r2_lcp = { module = "com.github.readium:r2-lcp-kotlin", version.ref = "r2_lcp" }
 r2_opds = { module = "com.github.readium:r2-opds-kotlin", version.ref = "r2_opds" }
 r2_shared = { module = "com.github.readium:r2-shared-kotlin", version.ref = "r2_shared" }
 r2_streamer = { module = "com.github.readium:r2-streamer-kotlin", version.ref = "r2_streamer" }
