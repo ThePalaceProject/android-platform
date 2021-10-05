@@ -85,9 +85,11 @@ palace_findaway = "6.0.1"
 pandora_bottom_navigator = "ec834b9"
 picasso = "2.71828"
 quicktheories = "0.26"
-r2_opds = "2.0.0-beta.2"
-r2_shared = "29422a6e"
-r2_streamer = "2.0.0-beta.2"
+r2_lcp = "fa842f73ecb32422ebcd6836b7fafb7a4db3fd25"
+r2_opds = "a29b0936d0a6f2805d2d5dfe941063413ce98c56"
+r2_shared = "c11335b19d5754b4bb278d7d4b120755657a75fc"
+r2_streamer = "f92f8ce5b765d9cb1d7916a95215fb797230e146"
+readium_lcp = "1.0.0"
 retrofit2 = "2.8.1"
 robolectric = "4.4"
 rxandroid = "2.1.1"
@@ -235,6 +237,7 @@ quicktheories = { module = "org.quicktheories:quicktheories", version.ref = "qui
 r2_opds = { module = "com.github.readium:r2-opds-kotlin", version.ref = "r2_opds" }
 r2_shared = { module = "com.github.readium:r2-shared-kotlin", version.ref = "r2_shared" }
 r2_streamer = { module = "com.github.readium:r2-streamer-kotlin", version.ref = "r2_streamer" }
+readium_lcp = { module = "readium:liblcp", version.ref = "readium_lcp" }
 retrofit2 = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit2" }
 retrofit2_moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit2" }
 robolectric = { module = "org.robolectric:robolectric", version.ref = "robolectric" }
