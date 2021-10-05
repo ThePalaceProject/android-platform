@@ -80,6 +80,7 @@ okhttp3 = "4.9.0"
 orgjson = "20200518"
 osgi_bundle_annotation = "1.0.0"
 osgi_bundle_version_annotation = "1.0.0"
+palace_audiobook = "6.7.0"
 palace_findaway = "6.0.1"
 pandora_bottom_navigator = "ec834b9"
 picasso = "2.71828"
@@ -175,24 +176,24 @@ moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
 nano_httpd = { module = "com.github.edrlab.nanohttpd:nanohttpd", version.ref = "nano_httpd" }
 nano_httpd_nanolets = { module = "com.github.edrlab.nanohttpd:nanohttpd-nanolets", version.ref = "nano_httpd_nanolets" }
 nimbus_jose_jwt = { module = "com.nimbusds:nimbus-jose-jwt", version.ref = "nimbus_jose_jwt" }
-nypl_audiobook_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.api", version.ref = "nypl_audiobook" }
-nypl_audiobook_downloads = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.downloads", version.ref = "nypl_audiobook" }
-nypl_audiobook_feedbooks = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.feedbooks", version.ref = "nypl_audiobook" }
-nypl_audiobook_http = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.http", version.ref = "nypl_audiobook" }
-nypl_audiobook_manifest_fulfill_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.api", version.ref = "nypl_audiobook" }
-nypl_audiobook_manifest_fulfill_basic = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.basic", version.ref = "nypl_audiobook" }
-nypl_audiobook_manifest_fulfill_opa = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.opa", version.ref = "nypl_audiobook" }
-nypl_audiobook_manifest_fulfill_spi = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.spi", version.ref = "nypl_audiobook" }
-nypl_audiobook_manifest_license_check_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.license_check.api", version.ref = "nypl_audiobook" }
-nypl_audiobook_manifest_parser_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_parser.api", version.ref = "nypl_audiobook" }
-nypl_audiobook_manifest_parser_webpub = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_parser.webpub", version.ref = "nypl_audiobook" }
-nypl_audiobook_open_access = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.open_access", version.ref = "nypl_audiobook" }
-nypl_audiobook_parser_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.parser.api", version.ref = "nypl_audiobook" }
-nypl_audiobook_rbdigital = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.rbdigital", version.ref = "nypl_audiobook" }
-nypl_audiobook_views = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.views", version.ref = "nypl_audiobook" }
-nypl_drm_adobe = { module = "org.thepalaceproject.drm.adobe:org.librarysimplified.drm.adobe.provider", version.ref = "nypl_drm_adobe" }
-nypl_drm_axis = { module = "org.thepalaceproject.drm.axis:org.librarysimplified.drm.axis.provider", version.ref = "nypl_drm_axis" }
-nypl_drm_core = { module = "org.thepalaceproject.drm:org.librarysimplified.drm.core", version.ref = "nypl_drm_core" }
+nypl_audiobook_api = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.api", version.ref = "nypl_audiobook" }
+nypl_audiobook_downloads = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.downloads", version.ref = "nypl_audiobook" }
+nypl_audiobook_feedbooks = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.feedbooks", version.ref = "nypl_audiobook" }
+nypl_audiobook_http = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.http", version.ref = "nypl_audiobook" }
+nypl_audiobook_manifest_fulfill_api = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.manifest_fulfill.api", version.ref = "nypl_audiobook" }
+nypl_audiobook_manifest_fulfill_basic = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.manifest_fulfill.basic", version.ref = "nypl_audiobook" }
+nypl_audiobook_manifest_fulfill_opa = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.manifest_fulfill.opa", version.ref = "nypl_audiobook" }
+nypl_audiobook_manifest_fulfill_spi = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.manifest_fulfill.spi", version.ref = "nypl_audiobook" }
+nypl_audiobook_manifest_license_check_api = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.license_check.api", version.ref = "nypl_audiobook" }
+nypl_audiobook_manifest_parser_api = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.manifest_parser.api", version.ref = "nypl_audiobook" }
+nypl_audiobook_manifest_parser_webpub = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.manifest_parser.webpub", version.ref = "nypl_audiobook" }
+nypl_audiobook_open_access = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.open_access", version.ref = "nypl_audiobook" }
+nypl_audiobook_parser_api = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.parser.api", version.ref = "nypl_audiobook" }
+nypl_audiobook_rbdigital = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.rbdigital", version.ref = "nypl_audiobook" }
+nypl_audiobook_views = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.views", version.ref = "nypl_audiobook" }
+nypl_drm_adobe = { module = "org.librarysimplified.drm.adobe:org.librarysimplified.drm.adobe.provider", version.ref = "nypl_drm_adobe" }
+nypl_drm_axis = { module = "org.librarysimplified.drm.axis:org.librarysimplified.drm.axis.provider", version.ref = "nypl_drm_axis" }
+nypl_drm_core = { module = "org.librarysimplified.drm:org.librarysimplified.drm.core", version.ref = "nypl_drm_core" }
 nypl_http_api = { module = "org.librarysimplified.http:org.librarysimplified.http.api", version.ref = "nypl_http" }
 nypl_http_bearer_token = { module = "org.librarysimplified.http:org.librarysimplified.http.bearer_token", version.ref = "nypl_http" }
 nypl_http_downloads = { module = "org.librarysimplified.http:org.librarysimplified.http.downloads", version.ref = "nypl_http" }
@@ -212,6 +213,21 @@ okhttp3_mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version
 org_json = { module = "org.json:json", version.ref = "orgjson" }
 osgi_bundle_annotation = { module = "org.osgi:org.osgi.annotation.bundle", version.ref = "osgi_bundle_annotation" }
 osgi_bundle_version_annotation = { module = "org.osgi:org.osgi.annotation.versioning", version.ref = "osgi_bundle_version_annotation" }
+palace_audiobook_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.api", version.ref = "palace_audiobook" }
+palace_audiobook_downloads = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.downloads", version.ref = "palace_audiobook" }
+palace_audiobook_feedbooks = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.feedbooks", version.ref = "palace_audiobook" }
+palace_audiobook_http = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.http", version.ref = "palace_audiobook" }
+palace_audiobook_manifest_fulfill_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.api", version.ref = "palace_audiobook" }
+palace_audiobook_manifest_fulfill_basic = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.basic", version.ref = "palace_audiobook" }
+palace_audiobook_manifest_fulfill_opa = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.opa", version.ref = "palace_audiobook" }
+palace_audiobook_manifest_fulfill_spi = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.spi", version.ref = "palace_audiobook" }
+palace_audiobook_manifest_license_check_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.license_check.api", version.ref = "palace_audiobook" }
+palace_audiobook_manifest_parser_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_parser.api", version.ref = "palace_audiobook" }
+palace_audiobook_manifest_parser_webpub = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_parser.webpub", version.ref = "palace_audiobook" }
+palace_audiobook_open_access = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.open_access", version.ref = "palace_audiobook" }
+palace_audiobook_parser_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.parser.api", version.ref = "palace_audiobook" }
+palace_audiobook_rbdigital = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.rbdigital", version.ref = "palace_audiobook" }
+palace_audiobook_views = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.views", version.ref = "palace_audiobook" }
 palace_findaway = { module = "org.thepalaceproject.audiobook.audioengine:org.librarysimplified.audiobook.audioengine.core", version.ref = "palace_findaway" }
 pandora_bottom_navigator = { module = "com.github.qnga:BottomNavigator", version.ref = "pandora_bottom_navigator" }
 picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
