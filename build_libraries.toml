@@ -74,7 +74,7 @@ nypl_http = "0.0.24"
 nypl_overdrive = "1.0.5"
 nypl_pdf = "0.1.0"
 nypl_readium = "0.30.0"
-nypl_readium2 = "0.0.25"
+nypl_readium2 = "0.0.28"
 nypl_theme = "0.0.3"
 okhttp = "3.14.1"
 okhttp3 = "4.9.0"
@@ -89,10 +89,10 @@ palace_drm_adobe = "1.2.5"
 pandora_bottom_navigator = "ec834b9"
 picasso = "2.71828"
 quicktheories = "0.26"
-r2_lcp = "2.1.0"
-r2_opds = "2.1.0"
-r2_shared = "2.1.0"
-r2_streamer = "2.1.0"
+r2_lcp = "2.1.1"
+r2_opds = "2.1.1"
+r2_shared = "2.1.1"
+r2_streamer = "2.1.1"
 readium_lcp = "1.0.0"
 retrofit2 = "2.8.1"
 robolectric = "4.4"
@@ -245,10 +245,10 @@ palace_readium2_views = { module = "org.thepalaceproject.r2:org.librarysimplifie
 pandora_bottom_navigator = { module = "com.github.qnga:BottomNavigator", version.ref = "pandora_bottom_navigator" }
 picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
 quicktheories = { module = "org.quicktheories:quicktheories", version.ref = "quicktheories" }
-r2_lcp = { module = "com.github.readium:r2-lcp-kotlin", version.ref = "r2_lcp" }
-r2_opds = { module = "com.github.readium:r2-opds-kotlin", version.ref = "r2_opds" }
-r2_shared = { module = "com.github.readium:r2-shared-kotlin", version.ref = "r2_shared" }
-r2_streamer = { module = "com.github.readium:r2-streamer-kotlin", version.ref = "r2_streamer" }
+r2_lcp = { module = "com.github.readium.kotlin-toolkit:readium-lcp", version.ref = "r2_lcp" }
+r2_opds = { module = "com.github.readium.kotlin-toolkit:readium-opds", version.ref = "r2_opds" }
+r2_shared = { module = "com.github.readium.kotlin-toolkit:readium-shared", version.ref = "r2_shared" }
+r2_streamer = { module = "com.github.readium.kotlin-toolkit:readium-streamer", version.ref = "r2_streamer" }
 readium_lcp = { module = "readium:liblcp", version.ref = "readium_lcp" }
 retrofit2 = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit2" }
 retrofit2_moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit2" }
