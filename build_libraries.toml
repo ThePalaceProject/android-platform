@@ -86,6 +86,7 @@ palace_findaway = "6.0.1"
 palace_readium2 = "1.0.0"
 palace_drm_core = "1.2.5"
 palace_drm_adobe = "1.2.6"
+palace_overdrive = "1.0.0-SNAPSHOT"
 pandora_bottom_navigator = "ec834b9"
 picasso = "2.71828"
 quicktheories = "0.26"
@@ -206,7 +207,7 @@ nypl_http_bearer_token = { module = "org.librarysimplified.http:org.librarysimpl
 nypl_http_downloads = { module = "org.librarysimplified.http:org.librarysimplified.http.downloads", version.ref = "nypl_http" }
 nypl_http_uri = { module = "org.librarysimplified.http:org.librarysimplified.http.uri_builder", version.ref = "nypl_http" }
 nypl_http_vanilla = { module = "org.librarysimplified.http:org.librarysimplified.http.vanilla", version.ref = "nypl_http" }
-nypl_overdrive = { module = "org.thepalaceproject.audiobook.overdrive:org.librarysimplified.audiobook.overdrive.main", version.ref = "nypl_overdrive" }
+nypl_overdrive = { module = "org.librarysimplified.audiobook.overdrive:org.librarysimplified.audiobook.overdrive.main", version.ref = "nypl_overdrive" }
 nypl_pdf_api = { module = "edu.umn.minitex.pdf:edu.umn.minitex.pdf.api", version.ref = "nypl_pdf" }
 nypl_pdf_viewer = { module = "edu.umn.minitex.pdf:edu.umn.minitex.pdf.pdfviewer", version.ref = "nypl_pdf" }
 nypl_readium = { module = "org.librarysimplified:org.librarysimplified.readium", version.ref = "nypl_readium" }
@@ -239,6 +240,7 @@ palace_audiobook_views = { module = "org.thepalaceproject.audiobook:org.librarys
 palace_drm_core = { module = "org.thepalaceproject.drm:org.librarysimplified.drm.core", version.ref = "palace_drm_core" }
 palace_drm_adobe = { module = "org.thepalaceproject.drm.adobe:org.librarysimplified.drm.adobe.provider", version.ref = "palace_drm_adobe" }
 palace_findaway = { module = "org.thepalaceproject.audiobook.audioengine:org.librarysimplified.audiobook.audioengine.core", version.ref = "palace_findaway" }
+palace_overdrive = { module = "org.thepalaceproject.audiobook.overdrive:org.librarysimplified.audiobook.overdrive.main", version.ref = "palace_overdrive" }
 palace_readium2_api = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.api", version.ref = "palace_readium2" }
 palace_readium2_vanilla = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.vanilla", version.ref = "palace_readium2" }
 palace_readium2_views = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.views", version.ref = "palace_readium2" }
