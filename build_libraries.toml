@@ -81,7 +81,7 @@ okhttp3 = "4.9.0"
 orgjson = "20200518"
 osgi_bundle_annotation = "1.0.0"
 osgi_bundle_version_annotation = "1.0.0"
-palace_audiobook = "6.10.1"
+palace_audiobook = "6.11.0-SNAPSHOT"
 palace_findaway = "6.0.1"
 palace_readium2 = "1.0.1"
 palace_drm_core = "1.2.5"
@@ -226,6 +226,7 @@ palace_audiobook_api = { module = "org.thepalaceproject.audiobook:org.librarysim
 palace_audiobook_downloads = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.downloads", version.ref = "palace_audiobook" }
 palace_audiobook_feedbooks = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.feedbooks", version.ref = "palace_audiobook" }
 palace_audiobook_http = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.http", version.ref = "palace_audiobook" }
+palace_audiobook_lcp = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.lcp", version.ref = "palace_audiobook" }
 palace_audiobook_manifest_fulfill_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.api", version.ref = "palace_audiobook" }
 palace_audiobook_manifest_fulfill_basic = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.basic", version.ref = "palace_audiobook" }
 palace_audiobook_manifest_fulfill_opa = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.opa", version.ref = "palace_audiobook" }
