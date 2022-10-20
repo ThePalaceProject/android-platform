@@ -12,11 +12,13 @@ androidx_legacy_preference_v14 = "1.0.0"
 androidx_legacy_support_v4 = "1.0.0"
 androidx_lifecycle = "2.2.0"
 androidx_lifecycle_viewmodel = "2.3.0"
+androidx_media = "1.6.0"
 androidx_multidex = "2.0.1"
 androidx_navigation = "2.4.1"
 androidx_paging = "2.1.0"
 androidx_preference = "1.1.1"
 androidx_recycler_view = "1.1.0"
+androidx_swiperefresh_layout = "1.1.0"
 androidx_test_espresso = "3.3.0-alpha02"
 androidx_test_espresso_core = "3.1.0"
 androidx_test_ext_junit = "1.1.2-alpha02"
@@ -113,6 +115,7 @@ androidx_annotation = { module = "androidx.annotation:annotation", version.ref =
 androidx_app_compat = { module = "androidx.appcompat:appcompat", version.ref = "androidx_app_compat" }
 androidx_cardview = { module = "androidx.cardview:cardview", version.ref = "androidx_cardview" }
 androidx_constraint_layout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "androidx_constraint_layout" }
+androidx_swiperefresh_layout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "androidx_swiperefresh_layout" }
 androidx_core = { module = "androidx.core:core", version.ref = "androidx_core" }
 androidx_core_ktx = { module = "androidx.core:core-ktx", version.ref = "androidx_core_ktx" }
 androidx_fragment = { module = "androidx.fragment:fragment-ktx", version.ref = "androidx_fragment" }
@@ -121,6 +124,7 @@ androidx_legacy_preference_v14 = { module = "androidx.legacy:legacy-preference-v
 androidx_legacy_support_v4 = { module = "androidx.legacy:legacy-support-v4", version.ref = "androidx_legacy_support_v4" }
 androidx_lifecycle = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "androidx_lifecycle" }
 androidx_lifecycle_viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel", version.ref = "androidx_lifecycle_viewmodel" }
+androidx_media = { module = "androidx.media:media", version.ref = "androidx_media" }
 androidx_multidex = { module = "androidx.multidex:multidex", version.ref = "androidx_multidex" }
 androidx_navigation_fragment = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "androidx_navigation" }
 androidx_navigation_ui = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "androidx_navigation" }
