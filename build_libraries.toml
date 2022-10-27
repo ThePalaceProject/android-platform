@@ -188,8 +188,8 @@ mockito_kotlin = { module = "com.nhaarman.mockitokotlin2:mockito-kotlin", versio
 mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "mockwebserver" }
 moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
 moshi_kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi" }
-nano_httpd = { module = "com.github.edrlab.nanohttpd:nanohttpd", version.ref = "nano_httpd" }
-nano_httpd_nanolets = { module = "com.github.edrlab.nanohttpd:nanohttpd-nanolets", version.ref = "nano_httpd_nanolets" }
+nano_httpd = { module = "com.github.readium.nanohttpd:nanohttpd", version.ref = "nano_httpd" }
+nano_httpd_nanolets = { module = "com.github.readium.nanohttpd:nanohttpd-nanolets", version.ref = "nano_httpd_nanolets" }
 nimbus_jose_jwt = { module = "com.nimbusds:nimbus-jose-jwt", version.ref = "nimbus_jose_jwt" }
 nypl_audiobook_api = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.api", version.ref = "nypl_audiobook" }
 nypl_audiobook_downloads = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.downloads", version.ref = "nypl_audiobook" }
