@@ -33,6 +33,7 @@ chucker = "3.2.0"
 findaway = "8.2.0"
 firebase_analytics = "18.0.0"
 firebase_crashlytics = "17.3.0"
+firebase_dynamic_links = "21.1.0"
 google_auto_value = "1.7"
 google_exoplayer = "r1.5.15"
 google_guava = "27.1-android"
@@ -147,6 +148,7 @@ chucker = { module = "com.github.ChuckerTeam.Chucker:library", version.ref = "ch
 findaway = { module = "io.audioengine.mobile:all-android", version.ref = "findaway" }
 firebase_analytics = { module = "com.google.firebase:firebase-analytics", version.ref = "firebase_analytics" }
 firebase_crashlytics = { module = "com.google.firebase:firebase-crashlytics", version.ref = "firebase_crashlytics" }
+firebase_dynamic_links = { module = "com.google.firebase:firebase-dynamic-links-ktx", version.ref = "firebase_dynamic_links"}
 google_auto_value = { module = "com.google.auto.value:auto-value-annotations", version.ref = "google_auto_value" }
 google_auto_value_processor = { module = "com.google.auto.value:auto-value", version.ref = "google_auto_value" }
 google_exoplayer = { module = "com.google.android.exoplayer:exoplayer", version.ref = "google_exoplayer" }
