@@ -147,7 +147,7 @@ androidx_webkit = { module = "androidx.webkit:webkit", version.ref = "androidx_w
 bouncycastle = { module = "org.bouncycastle:bcpg-jdk15on", version.ref = "bouncycastle" }
 bouncycastle_PKI = { module = "org.bouncycastle:bcpkix-jdk15on", version.ref = "bouncycastle" }
 bouncycastle_TLS = { module = "org.bouncycastle:bctls-jdk15on", version.ref = "bouncycastle" }
-chucker = { module = "com.github.ChuckerTeam.Chucker:library", version.ref = "chucker" }
+chucker = { module = "com.github.chuckerteam.chucker:library", version.ref = "chucker" }
 findaway = { module = "io.audioengine.mobile:all-android", version.ref = "findaway" }
 firebase_analytics = { module = "com.google.firebase:firebase-analytics", version.ref = "firebase_analytics" }
 firebase_crashlytics = { module = "com.google.firebase:firebase-crashlytics", version.ref = "firebase_crashlytics" }
