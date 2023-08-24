@@ -202,6 +202,7 @@ nypl_drm_core = { module = "org.librarysimplified.drm:org.librarysimplified.drm.
 nypl_overdrive = { module = "org.librarysimplified.audiobook.overdrive:org.librarysimplified.audiobook.overdrive.main", version.ref = "nypl_overdrive" }
 nypl_pdf_api = { module = "edu.umn.minitex.pdf:edu.umn.minitex.pdf.api", version.ref = "nypl_pdf" }
 nypl_pdf_viewer = { module = "edu.umn.minitex.pdf:edu.umn.minitex.pdf.pdfviewer", version.ref = "nypl_pdf" }
+nypl_theme = { module = "org.librarysimplified.android.theme:org.librarysimplified.android.theme", version.ref = "nypl_theme" }
 okhttp3_logging_interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp3" }
 okhttp3_mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "okhttp3" }
 okhttp3 = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp3" }
