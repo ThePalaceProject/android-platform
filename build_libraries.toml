@@ -223,6 +223,13 @@ palace_audiobook_parser_api = { module = "org.thepalaceproject.audiobook:org.lib
 palace_audiobook_rbdigital = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.rbdigital", version.ref = "palace_audiobook" }
 palace_audiobook_views = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.views", version.ref = "palace_audiobook" }
 
+#------------------------------------------------------------------------
+# Logback.
+#------------------------------------------------------------------------
+logback_android = { module = "com.github.tony19:logback-android", version.ref = "logback_android" }
+logback_classic = { module = "ch.qos.logback:logback-classic", version.ref = "logback_classic" }
+logback_core = { module = "ch.qos.logback:logback-core", version.ref = "logback_classic" }
+
 bouncycastle = { module = "org.bouncycastle:bcpg-jdk15on", version.ref = "bouncycastle" }
 bouncycastle_PKI = { module = "org.bouncycastle:bcpkix-jdk15on", version.ref = "bouncycastle" }
 bouncycastle_TLS = { module = "org.bouncycastle:bctls-jdk15on", version.ref = "bouncycastle" }
@@ -256,8 +263,6 @@ kotlin_reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref =
 kotlin_stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
 kxml = { module = "net.sf.kxml:kxml2", version.ref = "kxml" }
 leak_canary = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leak_canary" }
-logback_android = { module = "com.github.tony19:logback-android", version.ref = "logback_android" }
-logback_classic = { module = "ch.qos.logback:logback-classic", version.ref = "logback_classic" }
 mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "mockwebserver" }
 moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
 moshi_kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi" }
@@ -279,7 +284,6 @@ okio = { module = "com.squareup.okio:okio", version.ref = "okio" }
 org_json = { module = "org.json:json", version.ref = "orgjson" }
 osgi_bundle_annotation = { module = "org.osgi:org.osgi.annotation.bundle", version.ref = "osgi_bundle_annotation" }
 osgi_bundle_version_annotation = { module = "org.osgi:org.osgi.annotation.versioning", version.ref = "osgi_bundle_version_annotation" }
-
 palace_drm_adobe = { module = "org.thepalaceproject.drm.adobe:org.librarysimplified.drm.adobe.provider", version.ref = "palace_drm_adobe" }
 palace_drm_core = { module = "org.thepalaceproject.drm:org.librarysimplified.drm.core", version.ref = "palace_drm_core" }
 palace_findaway = { module = "org.thepalaceproject.audiobook.audioengine:org.librarysimplified.audiobook.audioengine.core", version.ref = "palace_findaway" }
