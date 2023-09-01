@@ -123,6 +123,7 @@ androidx_test_espresso = { module = "androidx.test.espresso:espresso-core", vers
 androidx_test_espresso_core = { module = "androidx.test.espresso:espresso-core", version = "3.5.1" }
 androidx_test_ext_junit = { module = "androidx.test.ext:junit", version = "1.1.5" }
 androidx_test_extensions = { module = "androidx.test.ext:junit", version = "1.1.5" }
+androidx_test_monitor = { module = "androidx.test:monitor", version = "1.6.1" }
 androidx_test_orchestrator = { module = "androidx.test:orchestrator", version = "1.4.2" }
 androidx_test_rules = { module = "androidx.test:rules", version = "1.5.0" }
 androidx_test_runner = { module = "androidx.test:runner", version = "1.5.2" }
@@ -132,19 +133,31 @@ androidx_webkit = { module = "androidx.webkit:webkit", version = "1.7.0" }
 #------------------------------------------------------------------------
 # Roboelectric
 #------------------------------------------------------------------------
-robolectric = { module = "org.robolectric:robolectric", version = "4.9.2" }
-robolectric_annotations = { module = "org.robolectric:annotations", version = "4.9.2" }
-robolectric_junit = { module = "org.robolectric:junit", version = "4.9.2" }
-robolectric_pluginapi = { module = "org.robolectric:pluginapi", version = "4.9.2" }
+robolectric                                   = { module = "org.robolectric:robolectric", version = "4.9.2" }
+robolectric_annotations                       = { module = "org.robolectric:annotations", version = "4.9.2" }
+robolectric_junit                             = { module = "org.robolectric:junit", version = "4.9.2" }
+robolectric_nativeruntime                     = { module = "org.robolectric:nativeruntime", version = "4.9.2" }
+robolectric_pluginapi                         = { module = "org.robolectric:pluginapi", version = "4.9.2" }
 robolectric_plugins_maven_dependency_resolver = { module = "org.robolectric:plugins-maven-dependency-resolver", version = "4.9.2" }
-robolectric_resources = { module = "org.robolectric:resources", version = "4.9.2" }
-robolectric_sandbox = { module = "org.robolectric:sandbox", version = "4.9.2" }
-robolectric_shadowapi = { module = "org.robolectric:shadowapi", version = "4.9.2" }
-robolectric_shadows_framework = { module = "org.robolectric:shadows-framework", version = "4.9.2" }
-robolectric_utils = { module = "org.robolectric:utils", version = "4.9.2" }
-robolectric_utils_reflector = { module = "org.robolectric:utils-reflector", version = "4.9.2" }
-apiguardian = { module = "org.apiguardian:apiguardian-api", version = "1.1.2" }
-javax_inject = { module = "javax.inject:javax.inject", version = "1" }
+robolectric_resources                         = { module = "org.robolectric:resources", version = "4.9.2" }
+robolectric_sandbox                           = { module = "org.robolectric:sandbox", version = "4.9.2" }
+robolectric_shadowapi                         = { module = "org.robolectric:shadowapi", version = "4.9.2" }
+robolectric_shadows_framework                 = { module = "org.robolectric:shadows-framework", version = "4.9.2" }
+robolectric_utils                             = { module = "org.robolectric:utils", version = "4.9.2" }
+robolectric_utils_reflector                   = { module = "org.robolectric:utils-reflector", version = "4.9.2" }
+
+apiguardian      = { module = "org.apiguardian:apiguardian-api", version = "1.1.2" }
+javax_inject     = { module = "javax.inject:javax.inject", version = "1" }
+ow2              = { module = "org.ow2:ow2", version = "2.0.0" }
+ow2_asm          = { module = "org.ow2.asm:asm", version = "9.5" }
+ow2_asm_tree     = { module = "org.ow2.asm:asm-tree", version = "9.5" }
+ow2_asm_commons  = { module = "org.ow2.asm:asm-commons", version = "9.5" }
+conscrypt        = { module = "org.conscrypt:conscrypt-android", version = "2.5.2" }
+
+bouncycastle        = { module = "org.bouncycastle:bcpg-jdk15on", version.ref = "bouncycastle" }
+bouncycastle_PKI    = { module = "org.bouncycastle:bcpkix-jdk15on", version.ref = "bouncycastle" }
+bouncycastle_TLS    = { module = "org.bouncycastle:bctls-jdk15on", version.ref = "bouncycastle" }
+bouncycastle_bcprov = { module = "org.bouncycastle:bcprov-jdk15on", version.ref = "bouncycastle" }
 
 #------------------------------------------------------------------------
 # JUnit
@@ -250,9 +263,6 @@ truecommons_services     = { module = "net.java.truecommons:truecommons-services
 truecommons_logging      = { module = "net.java.truecommons:truecommons-logging",     version = "2.5.0" }
 commons_compress         = { module = "org.apache.commons:commons-compress",          version = "1.23.0" }
 
-bouncycastle = { module = "org.bouncycastle:bcpg-jdk15on", version.ref = "bouncycastle" }
-bouncycastle_PKI = { module = "org.bouncycastle:bcpkix-jdk15on", version.ref = "bouncycastle" }
-bouncycastle_TLS = { module = "org.bouncycastle:bctls-jdk15on", version.ref = "bouncycastle" }
 chucker = { module = "com.github.chuckerteam.chucker:library", version.ref = "chucker" }
 findaway = { module = "io.audioengine.mobile:all-android", version.ref = "findaway" }
 firebase_analytics = { module = "com.google.firebase:firebase-analytics", version.ref = "firebase_analytics" }
