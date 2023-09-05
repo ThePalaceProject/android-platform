@@ -28,7 +28,7 @@ jcip = "1.0.2"
 jcip_annotations = "1.0-1"
 joda_time = "2.10.10"
 kotlin = "1.8.20"
-kotlin_coroutines = "1.3.7"
+kotlin_coroutines = "1.6.4"
 kxml = "2.3.0"
 leak_canary = "2.1"
 logback_android = "3.0.0"
@@ -82,57 +82,116 @@ ulid_generator = "1.0.0"
 xmlpull = "1.1.3.1"
 
 [libraries]
-androidx_activity = { module = "androidx.activity:activity", version = "1.7.2" }
+#------------------------------------------------------------------------
+# AndroidX
+#------------------------------------------------------------------------
+
 androidx_activity_ktx = { module = "androidx.activity:activity-ktx", version = "1.7.2" }
+androidx_activity = { module = "androidx.activity:activity", version = "1.7.2" }
 androidx_annotation = { module = "androidx.annotation:annotation", version = "1.6.0" }
-androidx_app_compat = { module = "androidx.appcompat:appcompat", version = "1.6.1" }
+androidx_appcompat = { module = "androidx.appcompat:appcompat", version = "1.6.1" }
+androidx_appcompat_resources = { module = "androidx.appcompat:appcompat-resources", version = "1.6.1" }
+androidx_arch_core_common = { module = "androidx.arch.core:core-common", version = "2.2.0" }
+androidx_arch_core_runtime = { module = "androidx.arch.core:core-runtime", version = "2.2.0" }
+androidx_asynclayoutinflater = { module = "androidx.asynclayoutinflater:asynclayoutinflater", version = "1.0.0" }
 androidx_cardview = { module = "androidx.cardview:cardview", version = "1.0.0" }
-androidx_constraint_layout = { module = "androidx.constraintlayout:constraintlayout", version = "2.1.4" }
+androidx_collection = { module = "androidx.collection:collection", version = "1.2.0" }
+androidx_constraintlayout_core = { module = "androidx.constraintlayout:constraintlayout-core", version = "1.0.4" }
+androidx_constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version = "2.1.4" }
+androidx_constraintlayout_solver = { module = "androidx.constraintlayout:constraintlayout-solver", version = "2.0.4" }
 androidx_coordinatorlayout = { module = "androidx.coordinatorlayout:coordinatorlayout", version = "1.2.0" }
-androidx_core = { module = "androidx.core:core", version = "1.10.1" }
+androidx_core_common = { module = "androidx.arch.core:core-common", version = "2.2.0" }
 androidx_core_ktx = { module = "androidx.core:core-ktx", version = "1.10.1" }
+androidx_core = { module = "androidx.core:core", version = "1.10.1" }
+androidx_core_runtime = { module = "androidx.arch.core:core-runtime", version = "2.2.0" }
+androidx_cursoradapter = { module = "androidx.cursoradapter:cursoradapter", version = "1.0.0" }
 androidx_customview = { module = "androidx.customview:customview", version = "1.1.0" }
+androidx_customview_poolingcontainer = { module = "androidx.customview:customview-poolingcontainer", version = "1.0.0" }
+androidx_datastore_android = { module = "androidx.datastore:datastore-android", version = "1.1.0-alpha04" }
+androidx_datastore_core_android = { module = "androidx.datastore:datastore-core-android", version = "1.1.0-alpha04" }
+androidx_datastore_core = { module = "androidx.datastore:datastore-core", version = "1.0.0" }
+androidx_datastore_core_okio = { module = "androidx.datastore:datastore-core-okio", version = "1.1.0-alpha04" }
+androidx_datastore_preferences_core = { module = "androidx.datastore:datastore-preferences-core", version = "1.0.0" }
+androidx_datastore_preferences = { module = "androidx.datastore:datastore-preferences", version = "1.0.0" }
+androidx_documentfile = { module = "androidx.documentfile:documentfile", version = "1.0.1" }
 androidx_drawerlayout = { module = "androidx.drawerlayout:drawerlayout", version = "1.2.0" }
-androidx_fragment = { module = "androidx.fragment:fragment", version = "1.6.1" }
+androidx_emoji2 = { module = "androidx.emoji2:emoji2", version = "1.4.0" }
+androidx_emoji2_views_helper = { module = "androidx.emoji2:emoji2-views-helper", version = "1.4.0" }
+androidx_emoji2_views = { module = "androidx.emoji2:emoji2-views", version = "1.4.0" }
 androidx_fragment_ktx = { module = "androidx.fragment:fragment-ktx", version = "1.6.1" }
+androidx_fragment = { module = "androidx.fragment:fragment", version = "1.6.1" }
 androidx_fragment_testing = { module = "androidx.fragment:fragment-testing", version = "1.6.1" }
+androidx_interpolator = { module = "androidx.interpolator:interpolator", version = "1.0.0" }
 androidx_legacy_preference_v14 = { module = "androidx.legacy:legacy-preference-v14", version = "1.0.0" }
+androidx_legacy_support_core_ui = { module = "androidx.legacy:legacy-support-core-ui", version = "1.0.0" }
+androidx_legacy_support_core_utils = { module = "androidx.legacy:legacy-support-core-utils", version = "1.0.0" }
 androidx_legacy_support_v4 = { module = "androidx.legacy:legacy-support-v4", version = "1.0.0" }
 androidx_lifecycle_common = { module = "androidx.lifecycle:lifecycle-common", version = "2.6.1" }
 androidx_lifecycle_extensions = { module = "androidx.lifecycle:lifecycle-extensions", version = "2.2.0" }
-androidx_lifecycle_livedata = { module = "androidx.lifecycle:lifecycle-livedata", version = "2.6.1" }
-androidx_lifecycle_livedata_core = { module = "androidx.lifecycle:lifecycle-livedata-core", version = "2.6.1" }
 androidx_lifecycle_livedata_core_ktx = { module = "androidx.lifecycle:lifecycle-livedata-core-ktx", version = "2.6.1" }
+androidx_lifecycle_livedata_core = { module = "androidx.lifecycle:lifecycle-livedata-core", version = "2.6.1" }
 androidx_lifecycle_livedata_ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version = "2.6.1" }
+androidx_lifecycle_livedata = { module = "androidx.lifecycle:lifecycle-livedata", version = "2.6.1" }
+androidx_lifecycle_process = { module = "androidx.lifecycle:lifecycle-process", version = "2.6.1" }
+androidx_lifecycle_runtime = { module = "androidx.lifecycle:lifecycle-runtime", version = "2.6.1" }
 androidx_lifecycle_viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel", version = "2.6.1" }
 androidx_lifecycle_viewmodel_savedstate = { module = "androidx.lifecycle:lifecycle-viewmodel-savedstate", version = "2.6.1" }
+androidx_loader = { module = "androidx.loader:loader", version = "1.1.0" }
+androidx_localbroadcastmanager = { module = "androidx.localbroadcastmanager:localbroadcastmanager", version = "1.1.0" }
 androidx_media = { module = "androidx.media:media", version = "1.6.0" }
 androidx_multidex = { module = "androidx.multidex:multidex", version = "2.0.1" }
 androidx_navigation_fragment = { module = "androidx.navigation:navigation-fragment-ktx", version = "2.7.1" }
 androidx_navigation_ui = { module = "androidx.navigation:navigation-ui-ktx", version = "2.7.1" }
-androidx_paging_common = { module = "androidx.paging:paging-common", version = "3.2.0" }
 androidx_paging_common_ktx = { module = "androidx.paging:paging-common-ktx", version = "3.2.0" }
-androidx_paging_runtime = { module = "androidx.paging:paging-runtime", version = "3.2.0" }
+androidx_paging_common = { module = "androidx.paging:paging-common", version = "3.2.0" }
 androidx_paging_runtime_ktx = { module = "androidx.paging:paging-runtime-ktx", version = "3.2.0" }
-androidx_preference = { module = "androidx.preference:preference", version = "1.2.1" }
+androidx_paging_runtime = { module = "androidx.paging:paging-runtime", version = "3.2.0" }
 androidx_preference_ktx = { module = "androidx.preference:preference-ktx", version = "1.2.1" }
+androidx_preference = { module = "androidx.preference:preference", version = "1.2.1" }
+androidx_print = { module = "androidx.print:print", version = "1.0.0" }
 androidx_recycler_view = { module = "androidx.recyclerview:recyclerview", version = "1.3.1" }
+androidx_recyclerview = { module = "androidx.recyclerview:recyclerview", version = "1.3.1" }
+androidx_room_common = { module = "androidx.room:room-common", version = "2.5.2" }
+androidx_room_runtime = { module = "androidx.room:room-runtime", version = "2.5.2" }
 androidx_savedstate = { module = "androidx.savedstate:savedstate", version = "1.2.1" }
-androidx_swiperefresh_layout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version = "1.1.0" }
-androidx_test_espresso = { module = "androidx.test.espresso:espresso-core", version = "3.5.1" }
+androidx_slidingpanelayout = { module = "androidx.slidingpanelayout:slidingpanelayout", version = "1.2.0" }
+androidx_sqlite_framework = { module = "androidx.sqlite:sqlite-framework", version = "2.3.1" }
+androidx_sqlite = { module = "androidx.sqlite:sqlite", version = "2.3.1" }
+androidx_startup_runtime = { module = "androidx.startup:startup-runtime", version = "1.1.1" }
+androidx_swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version = "1.1.0" }
 androidx_test_espresso_core = { module = "androidx.test.espresso:espresso-core", version = "3.5.1" }
-androidx_test_ext_junit = { module = "androidx.test.ext:junit", version = "1.1.5" }
+androidx_test_espresso = { module = "androidx.test.espresso:espresso-core", version = "3.5.1" }
 androidx_test_extensions = { module = "androidx.test.ext:junit", version = "1.1.5" }
+androidx_test_ext_junit = { module = "androidx.test.ext:junit", version = "1.1.5" }
 androidx_test_monitor = { module = "androidx.test:monitor", version = "1.6.1" }
 androidx_test_orchestrator = { module = "androidx.test:orchestrator", version = "1.4.2" }
 androidx_test_rules = { module = "androidx.test:rules", version = "1.5.0" }
 androidx_test_runner = { module = "androidx.test:runner", version = "1.5.2" }
+androidx_tracing = { module = "androidx.tracing:tracing", version = "1.1.0" }
+androidx_transition = { module = "androidx.transition:transition", version = "1.4.1" }
+androidx_transition_ktx = { module = "androidx.transition:transition-ktx", version = "1.4.1" }
+androidx_vectordrawable = { module = "androidx.vectordrawable:vectordrawable", version = "1.1.0" }
+androidx_versionedparcelable = { module = "androidx.versionedparcelable:versionedparcelable", version = "1.1.1" }
 androidx_view_pager2 = { module = "androidx.viewpager2:viewpager2", version = "1.0.0" }
+androidx_viewpager2 = { module = "androidx.viewpager2:viewpager2", version = "1.0.0" }
+androidx_viewpager = { module = "androidx.viewpager:viewpager", version = "1.0.0" }
 androidx_webkit = { module = "androidx.webkit:webkit", version = "1.7.0" }
+
+#------------------------------------------------------------------------
+# Kotlin
+#------------------------------------------------------------------------
+
+kotlin_reflect                    = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
+kotlin_stdlib                     = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+kotlinx_coroutines                = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version = "1.7.3" }
+kotlinx_coroutines_android        = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version = "1.7.3" }
+kotlinx_coroutines_core_jvm       = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm", version = "1.7.3" }
+kotlinx_coroutines_play_services  = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services", version = "1.7.3" }
 
 #------------------------------------------------------------------------
 # Roboelectric
 #------------------------------------------------------------------------
+
 robolectric                                   = { module = "org.robolectric:robolectric", version = "4.9.2" }
 robolectric_annotations                       = { module = "org.robolectric:annotations", version = "4.9.2" }
 robolectric_junit                             = { module = "org.robolectric:junit", version = "4.9.2" }
@@ -162,16 +221,18 @@ bouncycastle_bcprov = { module = "org.bouncycastle:bcprov-jdk15on", version.ref 
 #------------------------------------------------------------------------
 # JUnit
 #------------------------------------------------------------------------
+
 junit = { module = "junit:junit", version = "4.13.2" }
 junit_jupiter_vintage = { module = "org.junit.vintage:junit-vintage-engine", version = "5.10.0" }
-junit_platform_commons = { module = "org.junit.platform:junit-platform-commons", version = "1.9.3" }
-junit_jupiter_api = { module = "org.junit.jupiter:junit-jupiter-api", version = "5.7.1" }
-junit_jupiter_engine = { module = "org.junit.jupiter:junit-jupiter-engine", version = "5.7.1" }
+junit_platform_commons = { module = "org.junit.platform:junit-platform-commons", version = "1.10.0" }
+junit_jupiter_api = { module = "org.junit.jupiter:junit-jupiter-api", version = "5.10.0" }
+junit_jupiter_engine = { module = "org.junit.jupiter:junit-jupiter-engine", version = "5.10.0" }
 opentest = { module = "org.opentest4j:opentest4j", version = "1.3.0" }
 
 #------------------------------------------------------------------------
 # Mockito
 #------------------------------------------------------------------------
+
 mockito_core = { module = "org.mockito:mockito-core", version = "5.5.0" }
 mockito_android = { module = "org.mockito:mockito-android", version = "5.5.0" }
 mockito_kotlin = { module = "org.mockito.kotlin:mockito-kotlin", version = "3.2.0" }
@@ -182,6 +243,7 @@ objenesis = { module = "org.objenesis:objenesis", version = "3.3" }
 #------------------------------------------------------------------------
 # rxjava and reactive streams.
 #------------------------------------------------------------------------
+
 rxjava = { module = "io.reactivex:rxjava", version.ref = "rxjava" }
 rxjava2 = { module = "io.reactivex.rxjava2:rxjava", version.ref = "rxjava2" }
 rxjava2_extensions = { module = "com.github.akarnokd:rxjava2-extensions", version.ref = "rxjava2_extensions" }
@@ -190,6 +252,7 @@ reactive_streams = { module = "org.reactivestreams:reactive-streams", version = 
 #------------------------------------------------------------------------
 # Jackson JSON.
 #------------------------------------------------------------------------
+
 jackson_core = { module = "com.fasterxml.jackson.core:jackson-core", version.ref = "jackson" }
 jackson_databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson" }
 jackson_annotations = { module = "com.fasterxml.jackson.core:jackson-annotations", version.ref = "jackson" }
@@ -198,6 +261,7 @@ jackson_kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin"
 #------------------------------------------------------------------------
 # Irradia components.
 #------------------------------------------------------------------------
+
 irradia_fieldrush_api = { module = "one.irradia.fieldrush:one.irradia.fieldrush.api", version.ref = "irradia_fieldrush" }
 irradia_fieldrush_vanilla = { module = "one.irradia.fieldrush:one.irradia.fieldrush.vanilla", version.ref = "irradia_fieldrush" }
 irradia_mime_api = { module = "one.irradia.mime:one.irradia.mime.api", version.ref = "irradia_mime" }
@@ -213,31 +277,39 @@ irradia_opds2_parser_vanilla = { module = "one.irradia.opds2_0:one.irradia.opds2
 #------------------------------------------------------------------------
 # Palace Audiobook components.
 #------------------------------------------------------------------------
-palace_audiobook_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.api", version.ref = "palace_audiobook" }
-palace_audiobook_downloads = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.downloads", version.ref = "palace_audiobook" }
-palace_audiobook_feedbooks = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.feedbooks", version.ref = "palace_audiobook" }
-palace_audiobook_http = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.http", version.ref = "palace_audiobook" }
-palace_audiobook_lcp = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.lcp", version.ref = "palace_audiobook" }
-palace_audiobook_lcp_license_status = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.lcp.license_status", version.ref = "palace_audiobook" }
-palace_audiobook_license_check_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.license_check.api", version.ref = "palace_audiobook" }
-palace_audiobook_license_check_spi = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.license_check.spi", version.ref = "palace_audiobook" }
-palace_audiobook_manifest_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest.api", version.ref = "palace_audiobook" }
-palace_audiobook_manifest_fulfill_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.api", version.ref = "palace_audiobook" }
-palace_audiobook_manifest_fulfill_basic = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.basic", version.ref = "palace_audiobook" }
-palace_audiobook_manifest_fulfill_opa = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.opa", version.ref = "palace_audiobook" }
-palace_audiobook_manifest_fulfill_spi = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.spi", version.ref = "palace_audiobook" }
-palace_audiobook_manifest_license_check_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.license_check.api", version.ref = "palace_audiobook" }
-palace_audiobook_manifest_parser_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_parser.api", version.ref = "palace_audiobook" }
+
+palace_audiobook_api                           = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.api", version.ref = "palace_audiobook" }
+palace_audiobook_downloads                     = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.downloads", version.ref = "palace_audiobook" }
+palace_audiobook_feedbooks                     = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.feedbooks", version.ref = "palace_audiobook" }
+palace_audiobook_http                          = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.http", version.ref = "palace_audiobook" }
+palace_audiobook_lcp                           = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.lcp", version.ref = "palace_audiobook" }
+palace_audiobook_lcp_license_status            = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.lcp.license_status", version.ref = "palace_audiobook" }
+palace_audiobook_license_check_api             = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.license_check.api", version.ref = "palace_audiobook" }
+palace_audiobook_license_check_spi             = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.license_check.spi", version.ref = "palace_audiobook" }
+palace_audiobook_manifest_api                  = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest.api", version.ref = "palace_audiobook" }
+palace_audiobook_manifest_fulfill_api          = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.api", version.ref = "palace_audiobook" }
+palace_audiobook_manifest_fulfill_basic        = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.basic", version.ref = "palace_audiobook" }
+palace_audiobook_manifest_fulfill_opa          = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.opa", version.ref = "palace_audiobook" }
+palace_audiobook_manifest_fulfill_spi          = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.spi", version.ref = "palace_audiobook" }
+palace_audiobook_manifest_license_check_api    = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.license_check.api", version.ref = "palace_audiobook" }
+palace_audiobook_manifest_parser_api           = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_parser.api", version.ref = "palace_audiobook" }
 palace_audiobook_manifest_parser_extension_spi = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_parser.extension_spi", version.ref = "palace_audiobook" }
-palace_audiobook_manifest_parser_webpub = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_parser.webpub", version.ref = "palace_audiobook" }
-palace_audiobook_open_access = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.open_access", version.ref = "palace_audiobook" }
-palace_audiobook_parser_api = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.parser.api", version.ref = "palace_audiobook" }
-palace_audiobook_rbdigital = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.rbdigital", version.ref = "palace_audiobook" }
-palace_audiobook_views = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.views", version.ref = "palace_audiobook" }
+palace_audiobook_manifest_parser_webpub        = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_parser.webpub", version.ref = "palace_audiobook" }
+palace_audiobook_open_access                   = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.open_access", version.ref = "palace_audiobook" }
+palace_audiobook_parser_api                    = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.parser.api", version.ref = "palace_audiobook" }
+palace_audiobook_rbdigital                     = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.rbdigital", version.ref = "palace_audiobook" }
+palace_audiobook_views                         = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.views", version.ref = "palace_audiobook" }
+
+palace_findaway  = { module = "org.thepalaceproject.audiobook.audioengine:org.librarysimplified.audiobook.audioengine.core", version.ref = "palace_findaway" }
+palace_overdrive = { module = "org.thepalaceproject.audiobook.overdrive:org.librarysimplified.audiobook.overdrive.main", version.ref = "palace_overdrive" }
+
+findaway = { module = "io.audioengine.mobile:all-android", version.ref = "findaway" }
+chucker  = { module = "com.github.chuckerteam.chucker:library", version.ref = "chucker" }
 
 #------------------------------------------------------------------------
 # Logback.
 #------------------------------------------------------------------------
+
 logback_android = { module = "com.github.tony19:logback-android", version.ref = "logback_android" }
 logback_classic = { module = "ch.qos.logback:logback-classic", version.ref = "logback_classic" }
 logback_core = { module = "ch.qos.logback:logback-core", version.ref = "logback_classic" }
@@ -245,6 +317,7 @@ logback_core = { module = "ch.qos.logback:logback-core", version.ref = "logback_
 #------------------------------------------------------------------------
 # TrueVFS. Used to manipulate archives for LCP.
 #------------------------------------------------------------------------
+
 truevfs_access           = { module = "net.java.truevfs:truevfs-access",         version.ref = "truevfs" }
 truevfs_driver_zip       = { module = "net.java.truevfs:truevfs-driver-zip",     version.ref = "truevfs" }
 truevfs_driver_file      = { module = "net.java.truevfs:truevfs-driver-file",    version.ref = "truevfs" }
@@ -263,22 +336,63 @@ truecommons_services     = { module = "net.java.truecommons:truecommons-services
 truecommons_logging      = { module = "net.java.truecommons:truecommons-logging",     version = "2.5.0" }
 commons_compress         = { module = "org.apache.commons:commons-compress",          version = "1.23.0" }
 
-chucker = { module = "com.github.chuckerteam.chucker:library", version.ref = "chucker" }
-findaway = { module = "io.audioengine.mobile:all-android", version.ref = "findaway" }
-firebase_analytics = { module = "com.google.firebase:firebase-analytics", version.ref = "firebase_analytics" }
-firebase_crashlytics = { module = "com.google.firebase:firebase-crashlytics", version.ref = "firebase_crashlytics" }
+#------------------------------------------------------------------------
+# Transifex
+#------------------------------------------------------------------------
+
+transifex_sdk          = { module = "com.transifex.txnative:txsdk", version.ref = "transifex" }
+transifex_common       = { module = "com.transifex.txnative:common", version.ref = "transifex" }
+google_gson            = { module = "com.google.code.gson:gson", version = "2.10.1" }
+inflationx_viewpump    = { module = "io.github.inflationx:viewpump", version = "2.1.1" }
+moznion_uribuildertiny = { module = "net.moznion:uribuilder-tiny", version = "2.7.1" }
+
+#------------------------------------------------------------------------
+# Firebase
+#------------------------------------------------------------------------
+
+firebase_analytics = { module = "com.google.firebase:firebase-analytics", version = "21.3.0" }
+firebase_annotations = { module = "com.google.firebase:firebase-annotations", version = "16.2.0" }
+firebase_common = { module = "com.google.firebase:firebase-common", version = "20.3.3" }
+firebase_common_ktx = { module = "com.google.firebase:firebase-common-ktx", version = "20.3.3" }
+firebase_components = { module = "com.google.firebase:firebase-components", version = "17.1.0" }
+firebase_crashlytics = { module = "com.google.firebase:firebase-crashlytics", version = "18.4.1" }
+firebase_datatransport = { module = "com.google.firebase:firebase-datatransport", version = "18.2.0" }
+firebase_encoders = { module = "com.google.firebase:firebase-encoders", version = "17.0.0" }
+firebase_encoders_json = { module = "com.google.firebase:firebase-encoders-json", version = "18.0.1" }
+firebase_encoders_proto = { module = "com.google.firebase:firebase-encoders-proto", version = "16.0.0" }
+firebase_installations = { module = "com.google.firebase:firebase-installations", version = "17.1.4" }
+firebase_installations_interop = { module = "com.google.firebase:firebase-installations-interop", version = "17.1.0" }
+firebase_measurement_connector = { module = "com.google.firebase:firebase-measurement-connector", version = "20.0.0" }
+firebase_sessions = { module = "com.google.firebase:firebase-sessions", version = "1.0.2" }
 firebase_dynamic_links_ktx = { module = "com.google.firebase:firebase-dynamic-links-ktx", version = "21.1.0" }
 firebase_dynamic_links = { module = "com.google.firebase:firebase-dynamic-links", version = "21.1.0" }
+firebase_auth_interop = { module = "com.google.firebase:firebase-auth-interop", version = "20.0.0" }
+
+transport_api = { module = "com.google.android.datatransport:transport-api", version = "3.0.0" }
+transport_backend_cct = { module = "com.google.android.datatransport:transport-backend-cct", version = "3.1.9" }
+transport_runtime = { module = "com.google.android.datatransport:transport-runtime", version = "3.1.9" }
+
+play_services_ads_identifier      = { module = "com.google.android.gms:play-services-ads-identifier", version = "18.0.1" }
+play_services_base                = { module = "com.google.android.gms:play-services-base", version = "18.2.0" }
+play_services_basement            = { module = "com.google.android.gms:play-services-basement", version = "18.2.0" }
+play_services_measurement         = { module = "com.google.android.gms:play-services-measurement", version = "21.3.0" }
+play_services_measurement_api     = { module = "com.google.android.gms:play-services-measurement-api", version = "21.3.0" }
+play_services_measurement_base    = { module = "com.google.android.gms:play-services-measurement-base", version = "21.3.0" }
+play_services_measurement_impl    = { module = "com.google.android.gms:play-services-measurement-impl", version = "21.3.0" }
+play_services_measurement_sdk     = { module = "com.google.android.gms:play-services-measurement-sdk", version = "21.3.0" }
+play_services_measurement_sdk_api = { module = "com.google.android.gms:play-services-measurement-sdk-api", version = "21.3.0" }
+play_services_stats               = { module = "com.google.android.gms:play-services-stats", version = "17.0.3" }
+play_services_tasks               = { module = "com.google.android.gms:play-services-tasks", version = "18.0.2" }
+play_services_location            = { module = "com.google.android.gms:play-services-location", version = "21.0.1" }
+
+#------------------------------------------------------------------------
+
 google_auto_value = { module = "com.google.auto.value:auto-value-annotations", version.ref = "google_auto_value" }
 google_auto_value_processor = { module = "com.google.auto.value:auto-value", version.ref = "google_auto_value" }
 google_exoplayer = { module = "com.google.android.exoplayer:exoplayer", version.ref = "google_exoplayer" }
 google_failureaccess = { module = "com.google.guava:failureaccess", version.ref = "google_failureaccess" }
 google_guava = { module = "com.google.guava:guava", version.ref = "google_guava" }
 google_material = { module = "com.google.android.material:material", version.ref = "google_material" }
-google_play_services_base = { module = "com.google.android.gms:play-services-base", version.ref = "google_play_services_base" }
-google_play_services_location = { module = "com.google.android.gms:play-services-location", version.ref = "google_play_services_location" }
-google_play_services_measurement_api = { module = "com.google.android.gms:play-services-measurement-api", version.ref = "google_play_services_measurement_api" }
-google_play_services_tasks = { module = "com.google.android.gms:play-services-tasks", version.ref = "google_play_services_tasks" }
 hamcrest = { module = "org.hamcrest:hamcrest", version = "2.2" }
 io7m_jfunctional = { module = "com.io7m.jfunctional:io7m-jfunctional-core", version.ref = "io7m_jfunctional" }
 io7m_jnull = { module = "com.io7m.jnull:io7m-jnull-core", version.ref = "io7m_jnull" }
@@ -287,10 +401,6 @@ javax_annotation_api = { module = "javax.annotation:javax.annotation-api", versi
 jcip = { module = "com.io7m.jcip:jcip-annotations", version.ref = "jcip" }
 jcip_annotations = { module = "com.github.stephenc.jcip:jcip-annotations", version.ref = "jcip_annotations" }
 joda_time = { module = "joda-time:joda-time", version.ref = "joda_time" }
-kotlin_coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlin_coroutines" }
-kotlin_coroutines_android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlin_coroutines" }
-kotlin_reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
-kotlin_stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
 kxml = { module = "net.sf.kxml:kxml2", version.ref = "kxml" }
 leak_canary = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leak_canary" }
 mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "mockwebserver" }
@@ -316,14 +426,12 @@ osgi_bundle_annotation = { module = "org.osgi:org.osgi.annotation.bundle", versi
 osgi_bundle_version_annotation = { module = "org.osgi:org.osgi.annotation.versioning", version.ref = "osgi_bundle_version_annotation" }
 palace_drm_adobe = { module = "org.thepalaceproject.drm.adobe:org.librarysimplified.drm.adobe.provider", version.ref = "palace_drm_adobe" }
 palace_drm_core = { module = "org.thepalaceproject.drm:org.librarysimplified.drm.core", version.ref = "palace_drm_core" }
-palace_findaway = { module = "org.thepalaceproject.audiobook.audioengine:org.librarysimplified.audiobook.audioengine.core", version.ref = "palace_findaway" }
 palace_http_api = { module = "org.thepalaceproject.http:org.librarysimplified.http.api", version.ref = "palace_http" }
 palace_http_bearer_token = { module = "org.thepalaceproject.http:org.librarysimplified.http.bearer_token", version.ref = "palace_http" }
 palace_http_downloads = { module = "org.thepalaceproject.http:org.librarysimplified.http.downloads", version.ref = "palace_http" }
 palace_http_refresh_token = { module = "org.thepalaceproject.http:org.librarysimplified.http.refresh_token", version.ref = "palace_http" }
 palace_http_uri = { module = "org.thepalaceproject.http:org.librarysimplified.http.uri_builder", version.ref = "palace_http" }
 palace_http_vanilla = { module = "org.thepalaceproject.http:org.librarysimplified.http.vanilla", version.ref = "palace_http" }
-palace_overdrive = { module = "org.thepalaceproject.audiobook.overdrive:org.librarysimplified.audiobook.overdrive.main", version.ref = "palace_overdrive" }
 palace_readium2_api = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.api", version.ref = "palace_readium2" }
 palace_readium2_vanilla = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.vanilla", version.ref = "palace_readium2" }
 palace_readium2_views = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.views", version.ref = "palace_readium2" }
@@ -339,6 +447,5 @@ retrofit2 = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofi
 retrofit2_moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit2" }
 rxandroid2 = { module = "io.reactivex.rxjava2:rxandroid", version.ref = "rxandroid" }
 slf4j = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
-transifex_sdk = { module = "com.transifex.txnative:txsdk", version.ref = "transifex" }
 ulid_generator = { module = "com.aallam.ulid:ulid-kotlin", version.ref = "ulid_generator" }
 xmlpull = { module = "xmlpull:xmlpull", version.ref = "xmlpull" }
