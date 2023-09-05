@@ -318,6 +318,15 @@ palace_http_uri = { module = "org.thepalaceproject.http:org.librarysimplified.ht
 palace_http_vanilla = { module = "org.thepalaceproject.http:org.librarysimplified.http.vanilla", version.ref = "palace_http" }
 
 #------------------------------------------------------------------------
+# Palace R2 navigator components.
+#------------------------------------------------------------------------
+
+palace_readium2_api = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.api", version.ref = "palace_readium2" }
+palace_readium2_vanilla = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.vanilla", version.ref = "palace_readium2" }
+palace_readium2_views = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.views", version.ref = "palace_readium2" }
+palace_readium2_ui_thread = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.ui_thread", version.ref = "palace_readium2" }
+
+#------------------------------------------------------------------------
 # Logback.
 #------------------------------------------------------------------------
 
@@ -437,9 +446,6 @@ osgi_bundle_annotation = { module = "org.osgi:org.osgi.annotation.bundle", versi
 osgi_bundle_version_annotation = { module = "org.osgi:org.osgi.annotation.versioning", version.ref = "osgi_bundle_version_annotation" }
 palace_drm_adobe = { module = "org.thepalaceproject.drm.adobe:org.librarysimplified.drm.adobe.provider", version.ref = "palace_drm_adobe" }
 palace_drm_core = { module = "org.thepalaceproject.drm:org.librarysimplified.drm.core", version.ref = "palace_drm_core" }
-palace_readium2_api = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.api", version.ref = "palace_readium2" }
-palace_readium2_vanilla = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.vanilla", version.ref = "palace_readium2" }
-palace_readium2_views = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.views", version.ref = "palace_readium2" }
 pandora_bottom_navigator = { module = "com.github.qnga:BottomNavigator", version.ref = "pandora_bottom_navigator" }
 picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
 quicktheories = { module = "org.quicktheories:quicktheories", version.ref = "quicktheories" }
