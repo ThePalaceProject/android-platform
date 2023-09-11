@@ -407,6 +407,14 @@ play_services_tasks               = { module = "com.google.android.gms:play-serv
 play_services_location            = { module = "com.google.android.gms:play-services-location", version = "21.0.1" }
 
 #------------------------------------------------------------------------
+# PDF components
+#------------------------------------------------------------------------
+
+# A PDFium fork that's compatible with AndroidX without the Jetifier
+# https://github.com/tibbi/PdfiumAndroid/
+pdfium_android = { module = "com.github.tibbi:PdfiumAndroid", version = "ff9cdff7c8" }
+
+#------------------------------------------------------------------------
 
 google_auto_value = { module = "com.google.auto.value:auto-value-annotations", version.ref = "google_auto_value" }
 google_auto_value_processor = { module = "com.google.auto.value:auto-value", version.ref = "google_auto_value" }
