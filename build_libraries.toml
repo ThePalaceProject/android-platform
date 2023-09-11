@@ -172,7 +172,6 @@ androidx_transition = { module = "androidx.transition:transition", version = "1.
 androidx_transition_ktx = { module = "androidx.transition:transition-ktx", version = "1.4.1" }
 androidx_vectordrawable = { module = "androidx.vectordrawable:vectordrawable", version = "1.1.0" }
 androidx_versionedparcelable = { module = "androidx.versionedparcelable:versionedparcelable", version = "1.1.1" }
-androidx_view_pager2 = { module = "androidx.viewpager2:viewpager2", version = "1.0.0" }
 androidx_viewbinding = { module = "androidx.databinding:viewbinding", version = "8.3.0-alpha03" }
 androidx_viewpager = { module = "androidx.viewpager:viewpager", version = "1.0.0" }
 androidx_viewpager2 = { module = "androidx.viewpager2:viewpager2", version = "1.0.0" }
@@ -379,16 +378,18 @@ firebase_common_ktx = { module = "com.google.firebase:firebase-common-ktx", vers
 firebase_components = { module = "com.google.firebase:firebase-components", version = "17.1.0" }
 firebase_crashlytics = { module = "com.google.firebase:firebase-crashlytics", version = "18.4.1" }
 firebase_datatransport = { module = "com.google.firebase:firebase-datatransport", version = "18.2.0" }
+firebase_dynamic_links = { module = "com.google.firebase:firebase-dynamic-links", version = "21.1.0" }
+firebase_dynamic_links_ktx = { module = "com.google.firebase:firebase-dynamic-links-ktx", version = "21.1.0" }
 firebase_encoders = { module = "com.google.firebase:firebase-encoders", version = "17.0.0" }
 firebase_encoders_json = { module = "com.google.firebase:firebase-encoders-json", version = "18.0.1" }
 firebase_encoders_proto = { module = "com.google.firebase:firebase-encoders-proto", version = "16.0.0" }
+firebase_iid_interop = { module = "com.google.firebase:firebase-iid-interop", version = "17.1.0" }
 firebase_installations = { module = "com.google.firebase:firebase-installations", version = "17.1.4" }
 firebase_installations_interop = { module = "com.google.firebase:firebase-installations-interop", version = "17.1.0" }
 firebase_measurement_connector = { module = "com.google.firebase:firebase-measurement-connector", version = "20.0.0" }
+firebase_messaging = { module = "com.google.firebase:firebase-messaging", version = "23.2.1"}
+firebase_messaging_ktx = { module = "com.google.firebase:firebase-messaging-ktx", version = "23.2.1"}
 firebase_sessions = { module = "com.google.firebase:firebase-sessions", version = "1.0.2" }
-firebase_dynamic_links_ktx = { module = "com.google.firebase:firebase-dynamic-links-ktx", version = "21.1.0" }
-firebase_dynamic_links = { module = "com.google.firebase:firebase-dynamic-links", version = "21.1.0" }
-firebase_auth_interop = { module = "com.google.firebase:firebase-auth-interop", version = "20.0.0" }
 
 transport_api = { module = "com.google.android.datatransport:transport-api", version = "3.0.0" }
 transport_backend_cct = { module = "com.google.android.datatransport:transport-backend-cct", version = "3.1.9" }
@@ -397,6 +398,7 @@ transport_runtime = { module = "com.google.android.datatransport:transport-runti
 play_services_ads_identifier      = { module = "com.google.android.gms:play-services-ads-identifier", version = "18.0.1" }
 play_services_base                = { module = "com.google.android.gms:play-services-base", version = "18.2.0" }
 play_services_basement            = { module = "com.google.android.gms:play-services-basement", version = "18.2.0" }
+play_services_cloud_messaging     = { module = "com.google.android.gms:play-services-cloud-messaging", version = "17.0.2" }
 play_services_measurement         = { module = "com.google.android.gms:play-services-measurement", version = "21.3.0" }
 play_services_measurement_api     = { module = "com.google.android.gms:play-services-measurement-api", version = "21.3.0" }
 play_services_measurement_base    = { module = "com.google.android.gms:play-services-measurement-base", version = "21.3.0" }
