@@ -37,7 +37,6 @@ mockwebserver = "4.9.0"
 moshi = "1.8.0"
 nano_httpd = "master-SNAPSHOT"
 nano_httpd_nanolets = "master-SNAPSHOT"
-nimbus_jose_jwt = "8.20"
 nypl_audiobook = "6.7.0"
 nypl_drm_adobe = "1.2.3"
 nypl_drm_axis = "1.0.2"
@@ -260,6 +259,14 @@ jackson_annotations = { module = "com.fasterxml.jackson.core:jackson-annotations
 jackson_kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson_kotlin" }
 
 #------------------------------------------------------------------------
+# Audiobooks JWT handling.
+#------------------------------------------------------------------------
+
+nimbus_jose_jwt = { module = "com.nimbusds:nimbus-jose-jwt", version = "8.20" }
+net_minidev_accessors_smart = { module = "net.minidev:accessors-smart", version = "1.2" }
+net_minidev_json_smart = { module = "net.minidev:json-smart", version = "2.3" }
+
+#------------------------------------------------------------------------
 # Irradia components.
 #------------------------------------------------------------------------
 
@@ -440,7 +447,6 @@ moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
 moshi_kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi" }
 nano_httpd = { module = "com.github.readium.nanohttpd:nanohttpd", version.ref = "nano_httpd" }
 nano_httpd_nanolets = { module = "com.github.readium.nanohttpd:nanohttpd-nanolets", version.ref = "nano_httpd_nanolets" }
-nimbus_jose_jwt = { module = "com.nimbusds:nimbus-jose-jwt", version.ref = "nimbus_jose_jwt" }
 nypl_drm_adobe = { module = "org.librarysimplified.drm.adobe:org.librarysimplified.drm.adobe.provider", version.ref = "nypl_drm_adobe" }
 nypl_drm_axis = { module = "org.librarysimplified.drm.axis:org.librarysimplified.drm.axis.provider", version.ref = "nypl_drm_axis" }
 nypl_drm_core = { module = "org.librarysimplified.drm:org.librarysimplified.drm.core", version.ref = "nypl_drm_core" }
