@@ -311,7 +311,19 @@ palace_audiobook_views                         = { module = "org.thepalaceprojec
 palace_findaway  = { module = "org.thepalaceproject.audiobook.audioengine:org.librarysimplified.audiobook.audioengine.core", version.ref = "palace_findaway" }
 palace_overdrive = { module = "org.thepalaceproject.audiobook.overdrive:org.librarysimplified.audiobook.overdrive.main", version.ref = "palace_overdrive" }
 
-findaway = { module = "io.audioengine.mobile:all-android", version.ref = "findaway" }
+findaway = { module = "io.audioengine.mobile:all-android", version = "8.2.0" }
+findaway_common = { module = "io.audioengine.mobile:common", version = "8.2.0" }
+findaway_listening = { module = "io.audioengine.mobile:listening", version = "8.2.0" }
+findaway_persistence = { module = "io.audioengine.mobile:persistence", version = "8.2.0" }
+findaway_play_android = { module = "io.audioengine.mobile:play-android", version = "8.2.0" }
+
+koin_core = { module = "io.insert-koin:koin-core", version = "3.4.3" }
+koin_core_jvm = { module = "io.insert-koin:koin-core-jvm", version = "3.4.3" }
+koin_android = { module = "io.insert-koin:koin-android", version = "3.4.3" }
+
+stately_common = { module = "co.touchlab:stately-common", version = "1.2.2" }
+stately_concurrency = { module = "co.touchlab:stately-concurrency", version = "1.2.2" }
+
 chucker  = { module = "com.github.chuckerteam.chucker:library", version.ref = "chucker" }
 
 #------------------------------------------------------------------------
