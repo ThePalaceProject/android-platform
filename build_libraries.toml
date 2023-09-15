@@ -32,7 +32,6 @@ leak_canary = "2.1"
 logback_android = "3.0.0"
 logback_classic = "1.4.8"
 mockwebserver = "4.9.0"
-moshi = "1.8.0"
 nano_httpd = "master-SNAPSHOT"
 nano_httpd_nanolets = "master-SNAPSHOT"
 nypl_audiobook = "6.7.0"
@@ -314,21 +313,28 @@ findaway_listening = { module = "io.audioengine.mobile:listening", version = "8.
 findaway_persistence = { module = "io.audioengine.mobile:persistence", version = "8.2.0" }
 findaway_play_android = { module = "io.audioengine.mobile:play-android", version = "8.2.0" }
 
+# Mountains of internal code used by Findaway, with very specific version requirements.
 koin_core = { module = "io.insert-koin:koin-core", version = "3.1.6" }
 koin_core_jvm = { module = "io.insert-koin:koin-core-jvm", version = "3.1.6" }
 koin_android = { module = "io.insert-koin:koin-android", version = "3.1.6" }
-
 stately_common = { module = "co.touchlab:stately-common", version = "1.2.2" }
 stately_concurrency = { module = "co.touchlab:stately-concurrency", version = "1.2.2" }
-
 timber = { module = "com.jakewharton.timber:timber", version = "5.0.1" }
+koi_core = { module = "com.mcxiaoke.koi:core", version = "0.5.5" }
+moshi = { module = "com.squareup.moshi:moshi", version = "1.12.0" }
+moshi_adapters = { module = "com.squareup.moshi:moshi-adapters", version = "1.12.0" }
+moshi_kotlin = { module = "com.squareup.moshi:moshi-kotlin", version = "1.12.0" }
+sqlbrite = { module = "com.squareup.sqlbrite:sqlbrite", version = "1.1.2" }
+exoplayer2_core = { module = "com.google.android.exoplayer:exoplayer-core", version = "2.11.5" }
+rxrelay = { module = "com.jakewharton.rxrelay:rxrelay", version = "1.2.0" }
+rxandroid = { module = "io.reactivex:rxandroid", version = "1.2.1" }
+retrofit2 = { module = "com.squareup.retrofit2:retrofit", version = "2.6.4" }
+retrofit2_converter_gson = { module = "com.squareup.retrofit2:converter-gson", version = "2.6.4" }
+retrofit2_adapter_rxjava = { module = "com.squareup.retrofit2:adapter-rxjava", version = "2.6.4" }
+retrofit2_converter_moshi = { module = "com.squareup.retrofit2:converter-moshi", version = "2.6.4" }
+dagger = { module = "com.google.dagger:dagger", version = "2.24" }
 
 chucker = { module = "com.github.chuckerteam.chucker:library", version.ref = "chucker" }
-
-koi_core = { module = "com.mcxiaoke.koi:core", version = "0.5.5" }
-
-moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
-moshi_kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi" }
 
 #------------------------------------------------------------------------
 # Palace HTTP components.
@@ -487,7 +493,7 @@ palace_drm_core = { module = "org.thepalaceproject.drm:org.librarysimplified.drm
 pandora_bottom_navigator = { module = "com.github.qnga:BottomNavigator", version.ref = "pandora_bottom_navigator" }
 picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
 quicktheories = { module = "org.quicktheories:quicktheories", version.ref = "quicktheories" }
-retrofit2 = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit2" }
+# retrofit2 = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit2" }
 retrofit2_moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit2" }
 rxandroid2 = { module = "io.reactivex.rxjava2:rxandroid", version.ref = "rxandroid" }
 slf4j = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
