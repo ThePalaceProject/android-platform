@@ -27,8 +27,6 @@ javax_annotations = "1.2-b01"
 jcip = "1.0.2"
 jcip_annotations = "1.0-1"
 joda_time = "2.10.10"
-kotlin = "1.8.20"
-kotlin_coroutines = "1.6.4"
 kxml = "2.3.0"
 leak_canary = "2.1"
 logback_android = "3.0.0"
@@ -64,11 +62,6 @@ palace_readium2 = "2.0.0"
 pandora_bottom_navigator = "ec834b9"
 picasso = "2.71828"
 quicktheories = "0.26"
-r2_lcp = "2.2.1"
-r2_opds = "2.2.1"
-r2_shared = "2.2.1"
-r2_streamer = "2.2.1"
-readium_lcp = "2.0.0"
 retrofit2 = "2.8.1"
 rxandroid = "2.1.1"
 rxjava = "1.3.8"
@@ -151,6 +144,8 @@ androidx_print = { module = "androidx.print:print", version = "1.0.0" }
 androidx_recycler_view = { module = "androidx.recyclerview:recyclerview", version = "1.3.1" }
 androidx_recyclerview = { module = "androidx.recyclerview:recyclerview", version = "1.3.1" }
 androidx_room_common = { module = "androidx.room:room-common", version = "2.5.2" }
+androidx_room_coroutines = { module = "androidx.room:room-coroutines", version = "2.1.0-alpha04" }
+androidx_room_ktx = { module = "androidx.room:room-ktx", version = "2.5.2" }
 androidx_room_runtime = { module = "androidx.room:room-runtime", version = "2.5.2" }
 androidx_savedstate = { module = "androidx.savedstate:savedstate", version = "1.2.1" }
 androidx_slidingpanelayout = { module = "androidx.slidingpanelayout:slidingpanelayout", version = "1.2.0" }
@@ -180,8 +175,8 @@ androidx_webkit = { module = "androidx.webkit:webkit", version = "1.7.0" }
 # Kotlin
 #------------------------------------------------------------------------
 
-kotlin_reflect                    = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
-kotlin_stdlib                     = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+kotlin_reflect                    = { module = "org.jetbrains.kotlin:kotlin-reflect", version = "1.9.0" }
+kotlin_stdlib                     = { module = "org.jetbrains.kotlin:kotlin-stdlib", version = "1.9.0" }
 kotlinx_coroutines                = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version = "1.7.3" }
 kotlinx_coroutines_android        = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version = "1.7.3" }
 kotlinx_coroutines_core_jvm       = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm", version = "1.7.3" }
@@ -319,14 +314,21 @@ findaway_listening = { module = "io.audioengine.mobile:listening", version = "8.
 findaway_persistence = { module = "io.audioengine.mobile:persistence", version = "8.2.0" }
 findaway_play_android = { module = "io.audioengine.mobile:play-android", version = "8.2.0" }
 
-koin_core = { module = "io.insert-koin:koin-core", version = "3.4.3" }
-koin_core_jvm = { module = "io.insert-koin:koin-core-jvm", version = "3.4.3" }
-koin_android = { module = "io.insert-koin:koin-android", version = "3.4.3" }
+koin_core = { module = "io.insert-koin:koin-core", version = "3.1.6" }
+koin_core_jvm = { module = "io.insert-koin:koin-core-jvm", version = "3.1.6" }
+koin_android = { module = "io.insert-koin:koin-android", version = "3.1.6" }
 
 stately_common = { module = "co.touchlab:stately-common", version = "1.2.2" }
 stately_concurrency = { module = "co.touchlab:stately-concurrency", version = "1.2.2" }
 
-chucker  = { module = "com.github.chuckerteam.chucker:library", version.ref = "chucker" }
+timber = { module = "com.jakewharton.timber:timber", version = "5.0.1" }
+
+chucker = { module = "com.github.chuckerteam.chucker:library", version.ref = "chucker" }
+
+koi_core = { module = "com.mcxiaoke.koi:core", version = "0.5.5" }
+
+moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
+moshi_kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi" }
 
 #------------------------------------------------------------------------
 # Palace HTTP components.
@@ -347,6 +349,12 @@ palace_readium2_api = { module = "org.thepalaceproject.r2:org.librarysimplified.
 palace_readium2_vanilla = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.vanilla", version.ref = "palace_readium2" }
 palace_readium2_views = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.views", version.ref = "palace_readium2" }
 palace_readium2_ui_thread = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.ui_thread", version.ref = "palace_readium2" }
+
+r2_lcp = { module = "com.github.readium.kotlin-toolkit:readium-lcp", version = "2.2.1" }
+r2_opds = { module = "com.github.readium.kotlin-toolkit:readium-opds", version = "2.2.1" }
+r2_shared = { module = "com.github.readium.kotlin-toolkit:readium-shared", version = "2.2.1" }
+r2_streamer = { module = "com.github.readium.kotlin-toolkit:readium-streamer", version = "2.2.1" }
+readium_lcp = { module = "readium:liblcp", version = "2.0.0" }
 
 #------------------------------------------------------------------------
 # Logback.
@@ -457,8 +465,6 @@ joda_time = { module = "joda-time:joda-time", version.ref = "joda_time" }
 kxml = { module = "net.sf.kxml:kxml2", version.ref = "kxml" }
 leak_canary = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leak_canary" }
 mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "mockwebserver" }
-moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
-moshi_kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi" }
 nano_httpd = { module = "com.github.readium.nanohttpd:nanohttpd", version.ref = "nano_httpd" }
 nano_httpd_nanolets = { module = "com.github.readium.nanohttpd:nanohttpd-nanolets", version.ref = "nano_httpd_nanolets" }
 nypl_drm_adobe = { module = "org.librarysimplified.drm.adobe:org.librarysimplified.drm.adobe.provider", version.ref = "nypl_drm_adobe" }
@@ -481,11 +487,6 @@ palace_drm_core = { module = "org.thepalaceproject.drm:org.librarysimplified.drm
 pandora_bottom_navigator = { module = "com.github.qnga:BottomNavigator", version.ref = "pandora_bottom_navigator" }
 picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
 quicktheories = { module = "org.quicktheories:quicktheories", version.ref = "quicktheories" }
-r2_lcp = { module = "com.github.readium.kotlin-toolkit:readium-lcp", version.ref = "r2_lcp" }
-r2_opds = { module = "com.github.readium.kotlin-toolkit:readium-opds", version.ref = "r2_opds" }
-r2_shared = { module = "com.github.readium.kotlin-toolkit:readium-shared", version.ref = "r2_shared" }
-r2_streamer = { module = "com.github.readium.kotlin-toolkit:readium-streamer", version.ref = "r2_streamer" }
-readium_lcp = { module = "readium:liblcp", version.ref = "readium_lcp" }
 retrofit2 = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit2" }
 retrofit2_moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit2" }
 rxandroid2 = { module = "io.reactivex.rxjava2:rxandroid", version.ref = "rxandroid" }
