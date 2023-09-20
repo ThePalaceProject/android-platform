@@ -126,6 +126,7 @@ androidx_lifecycle_livedata_ktx = { module = "androidx.lifecycle:lifecycle-lived
 androidx_lifecycle_process = { module = "androidx.lifecycle:lifecycle-process", version = "2.6.1" }
 androidx_lifecycle_runtime = { module = "androidx.lifecycle:lifecycle-runtime", version = "2.6.1" }
 androidx_lifecycle_viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel", version = "2.6.1" }
+androidx_lifecycle_viewmodel_ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version = "2.6.1" }
 androidx_lifecycle_viewmodel_savedstate = { module = "androidx.lifecycle:lifecycle-viewmodel-savedstate", version = "2.6.1" }
 androidx_loader = { module = "androidx.loader:loader", version = "1.1.0" }
 androidx_localbroadcastmanager = { module = "androidx.localbroadcastmanager:localbroadcastmanager", version = "1.1.0" }
@@ -321,6 +322,7 @@ stately_common = { module = "co.touchlab:stately-common", version = "1.2.2" }
 stately_concurrency = { module = "co.touchlab:stately-concurrency", version = "1.2.2" }
 timber = { module = "com.jakewharton.timber:timber", version = "5.0.1" }
 koi_core = { module = "com.mcxiaoke.koi:core", version = "0.5.5" }
+jsoup = { module = "org.jsoup:jsoup", version = "1.7.2" }
 moshi = { module = "com.squareup.moshi:moshi", version = "1.12.0" }
 moshi_adapters = { module = "com.squareup.moshi:moshi-adapters", version = "1.12.0" }
 moshi_kotlin = { module = "com.squareup.moshi:moshi-kotlin", version = "1.12.0" }
