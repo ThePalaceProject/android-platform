@@ -322,7 +322,6 @@ stately_common = { module = "co.touchlab:stately-common", version = "1.2.2" }
 stately_concurrency = { module = "co.touchlab:stately-concurrency", version = "1.2.2" }
 timber = { module = "com.jakewharton.timber:timber", version = "5.0.1" }
 koi_core = { module = "com.mcxiaoke.koi:core", version = "0.5.5" }
-jsoup = { module = "org.jsoup:jsoup", version = "1.7.2" }
 moshi = { module = "com.squareup.moshi:moshi", version = "1.12.0" }
 moshi_adapters = { module = "com.squareup.moshi:moshi-adapters", version = "1.12.0" }
 moshi_kotlin = { module = "com.squareup.moshi:moshi-kotlin", version = "1.12.0" }
@@ -363,6 +362,8 @@ r2_opds = { module = "com.github.readium.kotlin-toolkit:readium-opds", version =
 r2_shared = { module = "com.github.readium.kotlin-toolkit:readium-shared", version = "2.2.1" }
 r2_streamer = { module = "com.github.readium.kotlin-toolkit:readium-streamer", version = "2.2.1" }
 readium_lcp = { module = "readium:liblcp", version = "2.0.0" }
+
+jsoup = { module = "org.jsoup:jsoup", version = "1.7.2" }
 
 #------------------------------------------------------------------------
 # Logback.
