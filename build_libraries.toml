@@ -106,6 +106,7 @@ androidx_datastore_preferences = { module = "androidx.datastore:datastore-prefer
 androidx_datastore_preferences_core = { module = "androidx.datastore:datastore-preferences-core", version = "1.0.0" }
 androidx_documentfile = { module = "androidx.documentfile:documentfile", version = "1.0.1" }
 androidx_drawerlayout = { module = "androidx.drawerlayout:drawerlayout", version = "1.2.0" }
+androidx_dynamicanimation = { module = "androidx.dynamicanimation:dynamicanimation", version = "1.1.0-alpha03" }
 androidx_emoji2 = { module = "androidx.emoji2:emoji2", version = "1.4.0" }
 androidx_emoji2_views = { module = "androidx.emoji2:emoji2-views", version = "1.4.0" }
 androidx_emoji2_views_helper = { module = "androidx.emoji2:emoji2-views-helper", version = "1.4.0" }
