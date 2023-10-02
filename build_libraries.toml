@@ -165,6 +165,7 @@ androidx_tracing = { module = "androidx.tracing:tracing", version = "1.1.0" }
 androidx_transition = { module = "androidx.transition:transition", version = "1.4.1" }
 androidx_transition_ktx = { module = "androidx.transition:transition-ktx", version = "1.4.1" }
 androidx_vectordrawable = { module = "androidx.vectordrawable:vectordrawable", version = "1.1.0" }
+androidx_vectordrawable_animated = { module = "androidx.vectordrawable:vectordrawable-animated", version = "1.1.0" }
 androidx_versionedparcelable = { module = "androidx.versionedparcelable:versionedparcelable", version = "1.1.1" }
 androidx_viewbinding = { module = "androidx.databinding:viewbinding", version = "8.3.0-alpha03" }
 androidx_viewpager = { module = "androidx.viewpager:viewpager", version = "1.0.0" }
