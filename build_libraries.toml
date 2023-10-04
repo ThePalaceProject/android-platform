@@ -368,6 +368,12 @@ readium_lcp = { module = "readium:liblcp", version = "2.0.0" }
 jsoup = { module = "org.jsoup:jsoup", version = "1.7.2" }
 
 #------------------------------------------------------------------------
+# Palace theme.
+#------------------------------------------------------------------------
+
+palace_theme = { module = "org.thepalaceproject.theme:org.thepalaceproject.theme.core", version = "0.0.1-SNAPSHOT" }
+
+#------------------------------------------------------------------------
 # Logback.
 #------------------------------------------------------------------------
 
