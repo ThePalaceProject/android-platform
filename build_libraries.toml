@@ -69,7 +69,7 @@ rxjava2_extensions = "0.20.10"
 slf4j = "2.0.7"
 transifex = "1.2.1"
 truevfs = "0.14.0"
-ulid_generator = "1.0.0"
+ulid = "1.3.0"
 xmlpull = "1.1.3.1"
 
 [libraries]
@@ -183,6 +183,7 @@ kotlinx_coroutines                = { module = "org.jetbrains.kotlinx:kotlinx-co
 kotlinx_coroutines_android        = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version = "1.7.3" }
 kotlinx_coroutines_core_jvm       = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm", version = "1.7.3" }
 kotlinx_coroutines_play_services  = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services", version = "1.7.3" }
+kotlinx_datetime                  = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version = "0.4.1" }
 
 #------------------------------------------------------------------------
 # Roboelectric
@@ -508,5 +509,6 @@ quicktheories = { module = "org.quicktheories:quicktheories", version.ref = "qui
 retrofit2_moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit2" }
 rxandroid2 = { module = "io.reactivex.rxjava2:rxandroid", version.ref = "rxandroid" }
 slf4j = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
-ulid_generator = { module = "com.aallam.ulid:ulid-kotlin", version.ref = "ulid_generator" }
+ulid_kotlin = { module = "com.aallam.ulid:ulid-kotlin", version.ref = "ulid" }
+ulid_kotlin_jvm = { module = "com.aallam.ulid:ulid-kotlin-jvm", version.ref = "ulid" }
 xmlpull = { module = "xmlpull:xmlpull", version.ref = "xmlpull" }
