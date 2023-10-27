@@ -373,7 +373,7 @@ jsoup = { module = "org.jsoup:jsoup", version = "1.7.2" }
 # Palace theme.
 #------------------------------------------------------------------------
 
-palace_theme = { module = "org.thepalaceproject.theme:org.thepalaceproject.theme.core", version = "0.0.1-SNAPSHOT" }
+palace_theme = { module = "org.thepalaceproject.theme:org.thepalaceproject.theme.core", version = "1.0.0" }
 
 #------------------------------------------------------------------------
 # Logback.
