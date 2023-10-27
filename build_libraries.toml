@@ -95,6 +95,7 @@ androidx_core = { module = "androidx.core:core", version = "1.10.1" }
 androidx_core_common = { module = "androidx.arch.core:core-common", version = "2.2.0" }
 androidx_core_ktx = { module = "androidx.core:core-ktx", version = "1.10.1" }
 androidx_core_runtime = { module = "androidx.arch.core:core-runtime", version = "2.2.0" }
+androidx_core_splashscreen = { module = "androidx.core:core-splashscreen", version = "1.1.0-alpha02" }
 androidx_cursoradapter = { module = "androidx.cursoradapter:cursoradapter", version = "1.0.0" }
 androidx_customview = { module = "androidx.customview:customview", version = "1.1.0" }
 androidx_customview_poolingcontainer = { module = "androidx.customview:customview-poolingcontainer", version = "1.0.0" }
