@@ -51,7 +51,7 @@ okio = "3.5.0"
 orgjson = "20200518"
 osgi_bundle_annotation = "1.0.0"
 osgi_bundle_version_annotation = "1.0.0"
-palace_audiobook = "11.3.0"
+palace_audiobook = "11.4.0"
 palace_drm_adobe = "1.2.7"
 palace_drm_core = "1.2.7"
 palace_findaway = "6.0.6"
@@ -373,7 +373,7 @@ jsoup = { module = "org.jsoup:jsoup", version = "1.7.2" }
 # Palace theme.
 #------------------------------------------------------------------------
 
-palace_theme = { module = "org.thepalaceproject.theme:org.thepalaceproject.theme.core", version = "1.1.0-SNAPSHOT" }
+palace_theme = { module = "org.thepalaceproject.theme:org.thepalaceproject.theme.core", version = "1.1.0" }
 
 #------------------------------------------------------------------------
 # Logback.
