@@ -31,7 +31,6 @@ kxml = "2.3.0"
 leak_canary = "2.1"
 logback_android = "3.0.0"
 logback_classic = "1.4.8"
-mockwebserver = "4.9.0"
 nano_httpd = "master-SNAPSHOT"
 nano_httpd_nanolets = "master-SNAPSHOT"
 nypl_audiobook = "6.7.0"
@@ -485,7 +484,6 @@ jcip_annotations = { module = "com.github.stephenc.jcip:jcip-annotations", versi
 joda_time = { module = "joda-time:joda-time", version.ref = "joda_time" }
 kxml = { module = "net.sf.kxml:kxml2", version.ref = "kxml" }
 leak_canary = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leak_canary" }
-mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "mockwebserver" }
 nano_httpd = { module = "com.github.readium.nanohttpd:nanohttpd", version.ref = "nano_httpd" }
 nano_httpd_nanolets = { module = "com.github.readium.nanohttpd:nanohttpd-nanolets", version.ref = "nano_httpd_nanolets" }
 nypl_drm_adobe = { module = "org.librarysimplified.drm.adobe:org.librarysimplified.drm.adobe.provider", version.ref = "nypl_drm_adobe" }
@@ -508,8 +506,6 @@ palace_drm_core = { module = "org.thepalaceproject.drm:org.librarysimplified.drm
 pandora_bottom_navigator = { module = "com.github.qnga:BottomNavigator", version.ref = "pandora_bottom_navigator" }
 picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
 quicktheories = { module = "org.quicktheories:quicktheories", version.ref = "quicktheories" }
-# retrofit2 = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit2" }
-retrofit2_moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit2" }
 rxandroid2 = { module = "io.reactivex.rxjava2:rxandroid", version.ref = "rxandroid" }
 slf4j = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
 ulid_kotlin = { module = "com.aallam.ulid:ulid-kotlin", version.ref = "ulid" }
