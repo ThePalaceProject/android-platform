@@ -362,10 +362,10 @@ palace_readium2_vanilla = { module = "org.thepalaceproject.r2:org.librarysimplif
 palace_readium2_views = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.views", version.ref = "palace_readium2" }
 palace_readium2_ui_thread = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.ui_thread", version.ref = "palace_readium2" }
 
-r2_lcp = { module = "com.github.readium.kotlin-toolkit:readium-lcp", version = "2.2.1" }
-r2_opds = { module = "com.github.readium.kotlin-toolkit:readium-opds", version = "2.2.1" }
-r2_shared = { module = "com.github.readium.kotlin-toolkit:readium-shared", version = "2.2.1" }
-r2_streamer = { module = "com.github.readium.kotlin-toolkit:readium-streamer", version = "2.2.1" }
+r2_lcp = { module = "org.readium.kotlin-toolkit:readium-lcp", version = "2.4.0" }
+r2_opds = { module = "org.readium.kotlin-toolkit:readium-opds", version = "2.4.0" }
+r2_shared = { module = "org.readium.kotlin-toolkit:readium-shared", version = "2.4.0" }
+r2_streamer = { module = "org.readium.kotlin-toolkit:readium-streamer", version = "2.4.0" }
 readium_lcp = { module = "readium:liblcp", version = "2.0.0" }
 
 jsoup = { module = "org.jsoup:jsoup", version = "1.7.2" }
