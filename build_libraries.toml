@@ -412,7 +412,7 @@ commons_compress         = { module = "org.apache.commons:commons-compress",    
 transifex_sdk          = { module = "com.transifex.txnative:txsdk", version.ref = "transifex" }
 transifex_common       = { module = "com.transifex.txnative:common", version.ref = "transifex" }
 google_gson            = { module = "com.google.code.gson:gson", version = "2.10.1" }
-inflationx_viewpump    = { module = "io.github.inflationx:viewpump", version = "2.1.1" }
+b3nedikt_viewpump      = { module = "dev.b3nedikt.viewpump:viewpump", version = "4.0.14" }
 moznion_uribuildertiny = { module = "net.moznion:uribuilder-tiny", version = "2.7.1" }
 
 #------------------------------------------------------------------------
