@@ -362,8 +362,8 @@ r2_streamer = { module = "org.thepalaceproject.readium:readium-streamer", versio
 
 readium_lcp = { module = "readium:liblcp", version = "2.0.0" }
 
-palace_drm_adobe = { module = "org.thepalaceproject.drm.adobe:org.thepalaceproject.drm.adobe.provider", version = "2.0.0-SNAPSHOT" }
-palace_drm_core  = { module = "org.thepalaceproject.drm:org.thepalaceproject.drm.core",                 version = "2.0.0-SNAPSHOT" }
+palace_drm_adobe = { module = "org.thepalaceproject.drm.adobe:org.thepalaceproject.drm.adobe.provider", version = "2.0.0" }
+palace_drm_core  = { module = "org.thepalaceproject.drm:org.thepalaceproject.drm.core",                 version = "2.0.0" }
 nypl_readium     = { module = "org.librarysimplified:org.librarysimplified.readium", version = "0.30.0" }
 
 jsoup = { module = "org.jsoup:jsoup", version = "1.7.2" }
