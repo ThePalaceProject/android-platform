@@ -420,10 +420,11 @@ moznion_uribuildertiny = { module = "net.moznion:uribuilder-tiny", version = "2.
 
 firebase_analytics             = { module = "com.google.firebase:firebase-analytics", version = "21.3.0" }
 firebase_annotations           = { module = "com.google.firebase:firebase-annotations", version = "16.2.0" }
-firebase_common                = { module = "com.google.firebase:firebase-common", version = "20.3.3" }
-firebase_common_ktx            = { module = "com.google.firebase:firebase-common-ktx", version = "20.3.3" }
+firebase_common                = { module = "com.google.firebase:firebase-common", version = "20.4.2" }
+firebase_common_ktx            = { module = "com.google.firebase:firebase-common-ktx", version = "20.4.2" }
 firebase_components            = { module = "com.google.firebase:firebase-components", version = "17.1.0" }
-firebase_crashlytics           = { module = "com.google.firebase:firebase-crashlytics", version = "18.4.1" }
+firebase_config_interop        = { module = "com.google.firebase:firebase-config-interop", version = "16.0.1" }
+firebase_crashlytics           = { module = "com.google.firebase:firebase-crashlytics", version = "18.6.2" }
 firebase_datatransport         = { module = "com.google.firebase:firebase-datatransport", version = "18.2.0" }
 firebase_dynamic_links         = { module = "com.google.firebase:firebase-dynamic-links", version = "21.1.0" }
 firebase_dynamic_links_ktx     = { module = "com.google.firebase:firebase-dynamic-links-ktx", version = "21.1.0" }
@@ -436,7 +437,7 @@ firebase_installations_interop = { module = "com.google.firebase:firebase-instal
 firebase_measurement_connector = { module = "com.google.firebase:firebase-measurement-connector", version = "20.0.0" }
 firebase_messaging             = { module = "com.google.firebase:firebase-messaging", version = "23.2.1"}
 firebase_messaging_ktx         = { module = "com.google.firebase:firebase-messaging-ktx", version = "23.2.1"}
-firebase_sessions              = { module = "com.google.firebase:firebase-sessions", version = "1.0.2" }
+firebase_sessions              = { module = "com.google.firebase:firebase-sessions", version = "1.2.2" }
 
 transport_api         = { module = "com.google.android.datatransport:transport-api", version = "3.0.0" }
 transport_backend_cct = { module = "com.google.android.datatransport:transport-backend-cct", version = "3.1.9" }
