@@ -296,6 +296,8 @@ palace_audiobook_views                         = { module = "org.thepalaceprojec
 palace_findaway  = { module = "org.thepalaceproject.audiobook.audioengine:org.librarysimplified.audiobook.audioengine.core", version.ref = "palace_findaway" }
 palace_overdrive = { module = "org.thepalaceproject.audiobook.overdrive:org.librarysimplified.audiobook.overdrive.main", version.ref = "palace_overdrive" }
 
+kabstand = { module = "com.io7m.kabstand:com.io7m.kabstand.core", version = "1.0.0-SNAPSHOT" }
+
 findaway              = { module = "io.audioengine.mobile:all-android", version = "8.2.0" }
 findaway_common       = { module = "io.audioengine.mobile:common", version = "8.2.0" }
 findaway_listening    = { module = "io.audioengine.mobile:listening", version = "8.2.0" }
