@@ -168,7 +168,7 @@ kotlinx_coroutines                = { module = "org.jetbrains.kotlinx:kotlinx-co
 kotlinx_coroutines_android        = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version = "1.7.3" }
 kotlinx_coroutines_core_jvm       = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm", version = "1.7.3" }
 kotlinx_coroutines_play_services  = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services", version = "1.7.3" }
-kotlinx_datetime                  = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version = "0.4.1" }
+kotlinx_datetime                  = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version = "0.6.0" }
 
 #------------------------------------------------------------------------
 # Roboelectric
@@ -357,12 +357,12 @@ palace_readium2_vanilla   = { module = "org.thepalaceproject.r2:org.librarysimpl
 palace_readium2_views     = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.views",     version = "5.1.0" }
 palace_readium2_ui_thread = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.ui_thread", version = "5.1.0" }
 
-r2_lcp      = { module = "org.thepalaceproject.readium:readium-lcp",      version = "3.0.0-alpha0001_palace" }
-r2_opds     = { module = "org.thepalaceproject.readium:readium-opds",     version = "3.0.0-alpha0001_palace" }
-r2_shared   = { module = "org.thepalaceproject.readium:readium-shared",   version = "3.0.0-alpha0001_palace" }
-r2_streamer = { module = "org.thepalaceproject.readium:readium-streamer", version = "3.0.0-alpha0001_palace" }
+r2_lcp      = { module = "org.readium.kotlin-toolkit:readium-lcp",      version = "3.0.0-beta.1" }
+r2_opds     = { module = "org.readium.kotlin-toolkit:readium-opds",     version = "3.0.0-beta.1" }
+r2_shared   = { module = "org.readium.kotlin-toolkit:readium-shared",   version = "3.0.0-beta.1" }
+r2_streamer = { module = "org.readium.kotlin-toolkit:readium-streamer", version = "3.0.0-beta.1" }
 
-readium_lcp = { module = "readium:liblcp", version = "2.0.0" }
+readium_lcp = { module = "readium:liblcp", version = "4.1.0" }
 
 palace_drm_adobe = { module = "org.thepalaceproject.drm.adobe:org.thepalaceproject.drm.adobe.provider", version = "2.0.0" }
 palace_drm_core  = { module = "org.thepalaceproject.drm:org.thepalaceproject.drm.core",                 version = "2.0.0" }
