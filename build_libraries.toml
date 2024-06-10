@@ -365,7 +365,7 @@ r2_streamer = { module = "org.readium.kotlin-toolkit:readium-streamer", version 
 readium_lcp = { module = "readium:liblcp", version = "4.1.0" }
 
 palace_drm_adobe = { module = "org.thepalaceproject.drm.adobe:org.thepalaceproject.drm.adobe.provider", version = "2.1.0" }
-palace_drm_core  = { module = "org.thepalaceproject.drm:org.thepalaceproject.drm.core",                 version = "2.0.0" }
+palace_drm_core  = { module = "org.thepalaceproject.drm:org.thepalaceproject.drm.core",                 version = "2.1.0" }
 nypl_readium     = { module = "org.librarysimplified:org.librarysimplified.readium", version = "0.30.0" }
 
 jsoup = { module = "org.jsoup:jsoup", version = "1.7.2" }
