@@ -38,7 +38,7 @@ okio                                  =  "3.5.0"
 orgjson                               =  "20200518"
 osgi_bundle_annotation                =  "1.0.0"
 osgi_bundle_version_annotation        =  "1.0.0"
-palace_audiobook                      =  "13.0.0-beta0018"
+palace_audiobook                      =  "14.0.0-SNAPSHOT"
 palace_findaway                       =  "7.0.0"
 palace_http                           =  "1.5.0"
 palace_overdrive                      =  "1.2.0"
@@ -52,7 +52,6 @@ rxjava2                               =  "2.2.21"
 rxjava2_extensions                    =  "0.20.10"
 slf4j                                 =  "2.0.7"
 transifex                             =  "1.3.0"
-truevfs                               =  "0.14.0"
 ulid                                  =  "1.3.0"
 xmlpull                               =  "1.1.3.1"
 
@@ -276,6 +275,7 @@ palace_audiobook_feedbooks                     = { module = "org.thepalaceprojec
 palace_audiobook_http                          = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.http", version.ref = "palace_audiobook" }
 palace_audiobook_json_canon                    = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.json_canon", version.ref = "palace_audiobook" }
 palace_audiobook_json_web_token                = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.json_web_token", version.ref = "palace_audiobook" }
+palace_audiobook_lcp_downloads                 = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.lcp.downloads", version.ref = "palace_audiobook" }
 palace_audiobook_lcp_license_status            = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.lcp.license_status", version.ref = "palace_audiobook" }
 palace_audiobook_license_check_api             = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.license_check.api", version.ref = "palace_audiobook" }
 palace_audiobook_license_check_spi             = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.license_check.spi", version.ref = "palace_audiobook" }
@@ -383,28 +383,6 @@ palace_theme = { module = "org.thepalaceproject.theme:org.thepalaceproject.theme
 logback_android = { module = "com.github.tony19:logback-android", version.ref = "logback_android" }
 logback_classic = { module = "ch.qos.logback:logback-classic", version.ref = "logback_classic" }
 logback_core    = { module = "ch.qos.logback:logback-core", version.ref = "logback_classic" }
-
-#------------------------------------------------------------------------
-# TrueVFS. Used to manipulate archives for LCP.
-#------------------------------------------------------------------------
-
-truevfs_access           = { module = "net.java.truevfs:truevfs-access",         version.ref = "truevfs" }
-truevfs_driver_zip       = { module = "net.java.truevfs:truevfs-driver-zip",     version.ref = "truevfs" }
-truevfs_driver_file      = { module = "net.java.truevfs:truevfs-driver-file",    version.ref = "truevfs" }
-truevfs_kernel_spec      = { module = "net.java.truevfs:truevfs-kernel-spec",    version.ref = "truevfs" }
-truevfs_kernel_impl      = { module = "net.java.truevfs:truevfs-kernel-impl",    version.ref = "truevfs" }
-truevfs_comp_zip         = { module = "net.java.truevfs:truevfs-comp-zip",       version.ref = "truevfs" }
-truevfs_comp_zipdriver   = { module = "net.java.truevfs:truevfs-comp-zipdriver", version.ref = "truevfs" }
-service_wight_core       = { module = "global.namespace.service-wight:service-wight-core", version = "0.6.0" }
-service_wight_annotation = { module = "global.namespace.service-wight:service-wight-annotation", version = "0.6.0" }
-truecommons_key_disable  = { module = "net.java.truecommons:truecommons-key-disable", version = "2.5.0" }
-truecommons_key_spec     = { module = "net.java.truecommons:truecommons-key-spec",    version = "2.5.0" }
-truecommons_shed         = { module = "net.java.truecommons:truecommons-shed",        version = "2.5.0" }
-truecommons_cio          = { module = "net.java.truecommons:truecommons-cio",         version = "2.5.0" }
-truecommons_io           = { module = "net.java.truecommons:truecommons-io",          version = "2.5.0" }
-truecommons_services     = { module = "net.java.truecommons:truecommons-services",    version = "2.5.0" }
-truecommons_logging      = { module = "net.java.truecommons:truecommons-logging",     version = "2.5.0" }
-commons_compress         = { module = "org.apache.commons:commons-compress",          version = "1.23.0" }
 
 #------------------------------------------------------------------------
 # Transifex
