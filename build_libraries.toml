@@ -38,10 +38,11 @@ okio                                  =  "3.5.0"
 orgjson                               =  "20200518"
 osgi_bundle_annotation                =  "1.0.0"
 osgi_bundle_version_annotation        =  "1.0.0"
-palace_audiobook                      =  "13.0.0-beta0018"
+palace_audiobook                      =  "13.0.0-beta0019"
 palace_findaway                       =  "7.0.0"
 palace_http                           =  "1.6.0"
 palace_overdrive                      =  "1.2.0"
+palace_r2                             =  "6.1.0"
 pandora_bottom_navigator              =  "ec834b9"
 picasso                               =  "2.71828"
 quicktheories                         =  "0.26"
@@ -352,10 +353,10 @@ palace_http_vanilla       = { module = "org.thepalaceproject.http:org.librarysim
 # Palace R2 navigator components.
 #------------------------------------------------------------------------
 
-palace_readium2_api       = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.api",       version = "6.0.0" }
-palace_readium2_vanilla   = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.vanilla",   version = "6.0.0" }
-palace_readium2_views     = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.views",     version = "6.0.0" }
-palace_readium2_ui_thread = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.ui_thread", version = "6.0.0" }
+palace_readium2_api       = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.api",       version.ref = "palace_r2" }
+palace_readium2_vanilla   = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.vanilla",   version.ref = "palace_r2" }
+palace_readium2_views     = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.views",     version.ref = "palace_r2" }
+palace_readium2_ui_thread = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.ui_thread", version.ref = "palace_r2" }
 
 r2_lcp      = { module = "org.readium.kotlin-toolkit:readium-lcp",      version = "3.0.0-beta.1" }
 r2_opds     = { module = "org.readium.kotlin-toolkit:readium-opds",     version = "3.0.0-beta.1" }
