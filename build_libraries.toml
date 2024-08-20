@@ -305,25 +305,25 @@ findaway_persistence  = { module = "io.audioengine.mobile:persistence", version 
 findaway_play_android = { module = "io.audioengine.mobile:play-android", version = "8.2.0" }
 
 # Mountains of internal code used by Findaway, with very specific version requirements.
-koin_core = { module = "io.insert-koin:koin-core", version = "3.1.6" }
-koin_core_jvm = { module = "io.insert-koin:koin-core-jvm", version = "3.1.6" }
-koin_android = { module = "io.insert-koin:koin-android", version = "3.1.6" }
-stately_common = { module = "co.touchlab:stately-common", version = "1.2.2" }
-stately_concurrency = { module = "co.touchlab:stately-concurrency", version = "1.2.2" }
-timber = { module = "com.jakewharton.timber:timber", version = "5.0.1" }
-koi_core = { module = "com.mcxiaoke.koi:core", version = "0.5.5" }
-moshi = { module = "com.squareup.moshi:moshi", version = "1.12.0" }
-moshi_adapters = { module = "com.squareup.moshi:moshi-adapters", version = "1.12.0" }
-moshi_kotlin = { module = "com.squareup.moshi:moshi-kotlin", version = "1.12.0" }
-sqlbrite = { module = "com.squareup.sqlbrite:sqlbrite", version = "1.1.2" }
-exoplayer2_core = { module = "com.google.android.exoplayer:exoplayer-core", version = "2.11.5" }
-rxrelay = { module = "com.jakewharton.rxrelay:rxrelay", version = "1.2.0" }
-rxandroid = { module = "io.reactivex:rxandroid", version = "1.2.1" }
-retrofit2 = { module = "com.squareup.retrofit2:retrofit", version = "2.6.4" }
-retrofit2_converter_gson = { module = "com.squareup.retrofit2:converter-gson", version = "2.6.4" }
-retrofit2_adapter_rxjava = { module = "com.squareup.retrofit2:adapter-rxjava", version = "2.6.4" }
+koin_core                 = { module = "io.insert-koin:koin-core", version = "3.1.6" }
+koin_core_jvm             = { module = "io.insert-koin:koin-core-jvm", version = "3.1.6" }
+koin_android              = { module = "io.insert-koin:koin-android", version = "3.1.6" }
+stately_common            = { module = "co.touchlab:stately-common", version = "1.2.2" }
+stately_concurrency       = { module = "co.touchlab:stately-concurrency", version = "1.2.2" }
+timber                    = { module = "com.jakewharton.timber:timber", version = "5.0.1" }
+koi_core                  = { module = "com.mcxiaoke.koi:core", version = "0.5.5" }
+moshi                     = { module = "com.squareup.moshi:moshi", version = "1.12.0" }
+moshi_adapters            = { module = "com.squareup.moshi:moshi-adapters", version = "1.12.0" }
+moshi_kotlin              = { module = "com.squareup.moshi:moshi-kotlin", version = "1.12.0" }
+sqlbrite                  = { module = "com.squareup.sqlbrite:sqlbrite", version = "1.1.2" }
+exoplayer2_core           = { module = "org.thepalaceproject.exoplayer:exoplayer-core", version = "2.11.5" }
+rxrelay                   = { module = "com.jakewharton.rxrelay:rxrelay", version = "1.2.0" }
+rxandroid                 = { module = "io.reactivex:rxandroid", version = "1.2.1" }
+retrofit2                 = { module = "com.squareup.retrofit2:retrofit", version = "2.6.4" }
+retrofit2_converter_gson  = { module = "com.squareup.retrofit2:converter-gson", version = "2.6.4" }
+retrofit2_adapter_rxjava  = { module = "com.squareup.retrofit2:adapter-rxjava", version = "2.6.4" }
 retrofit2_converter_moshi = { module = "com.squareup.retrofit2:converter-moshi", version = "2.6.4" }
-dagger = { module = "com.google.dagger:dagger", version = "2.24" }
+dagger                    = { module = "com.google.dagger:dagger", version = "2.24" }
 
 chucker = { module = "com.github.chuckerteam.chucker:library", version.ref = "chucker" }
 
