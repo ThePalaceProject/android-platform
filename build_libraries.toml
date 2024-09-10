@@ -487,6 +487,8 @@ joda_time = { module = "joda-time:joda-time", version.ref = "joda_time" }
 kxml = { module = "net.sf.kxml:kxml2", version.ref = "kxml" }
 leak_canary = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leak_canary" }
 
+commons_io = { module = "commons-io:commons-io", version = "2.16.1" }
+
 nano_httpd = { module = "com.github.readium.nanohttpd:nanohttpd", version.ref = "nano_httpd" }
 nano_httpd_nanolets = { module = "com.github.readium.nanohttpd:nanohttpd-nanolets", version.ref = "nano_httpd_nanolets" }
 okhttp3 = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp3" }
