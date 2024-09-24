@@ -358,10 +358,10 @@ palace_readium2_vanilla   = { module = "org.thepalaceproject.r2:org.librarysimpl
 palace_readium2_views     = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.views",     version.ref = "palace_r2" }
 palace_readium2_ui_thread = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.ui_thread", version.ref = "palace_r2" }
 
-r2_lcp      = { module = "org.readium.kotlin-toolkit:readium-lcp",      version = "3.0.0-beta.1" }
-r2_opds     = { module = "org.readium.kotlin-toolkit:readium-opds",     version = "3.0.0-beta.1" }
-r2_shared   = { module = "org.readium.kotlin-toolkit:readium-shared",   version = "3.0.0-beta.1" }
-r2_streamer = { module = "org.readium.kotlin-toolkit:readium-streamer", version = "3.0.0-beta.1" }
+r2_lcp      = { module = "org.readium.kotlin-toolkit:readium-lcp",      version = "3.0.0" }
+r2_opds     = { module = "org.readium.kotlin-toolkit:readium-opds",     version = "3.0.0" }
+r2_shared   = { module = "org.readium.kotlin-toolkit:readium-shared",   version = "3.0.0" }
+r2_streamer = { module = "org.readium.kotlin-toolkit:readium-streamer", version = "3.0.0" }
 
 readium_lcp = { module = "readium:liblcp", version = "4.1.0" }
 
