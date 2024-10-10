@@ -41,7 +41,7 @@ osgi_bundle_version_annotation        =  "1.0.0"
 palace_audiobook                      =  "15.0.0-SNAPSHOT"
 palace_findaway                       =  "7.0.0"
 palace_http                           =  "1.6.0"
-palace_overdrive                      =  "1.2.0"
+palace_overdrive                      =  "2.0.0-SNAPSHOT"
 palace_r2                             =  "6.4.0"
 pandora_bottom_navigator              =  "ec834b9"
 picasso                               =  "2.71828"
@@ -294,7 +294,6 @@ palace_audiobook_parser_api                    = { module = "org.thepalaceprojec
 palace_audiobook_time_tracking                 = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.time_tracking", version.ref = "palace_audiobook" }
 palace_audiobook_views                         = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.views", version.ref = "palace_audiobook" }
 
-palace_findaway  = { module = "org.thepalaceproject.audiobook.audioengine:org.librarysimplified.audiobook.audioengine.core", version.ref = "palace_findaway" }
 palace_overdrive = { module = "org.thepalaceproject.audiobook.overdrive:org.librarysimplified.audiobook.overdrive.main", version.ref = "palace_overdrive" }
 
 kabstand = { module = "com.io7m.kabstand:com.io7m.kabstand.core", version = "1.0.0" }
