@@ -38,7 +38,7 @@ okio                                  =  "3.5.0"
 orgjson                               =  "20200518"
 osgi_bundle_annotation                =  "1.0.0"
 osgi_bundle_version_annotation        =  "1.0.0"
-palace_audiobook                      =  "15.0.0"
+palace_audiobook                      =  "16.0.0-SNAPSHOT"
 palace_findaway                       =  "7.0.0"
 palace_http                           =  "1.6.0"
 palace_overdrive                      =  "2.0.0"
@@ -362,7 +362,10 @@ r2_opds     = { module = "org.readium.kotlin-toolkit:readium-opds",     version 
 r2_shared   = { module = "org.readium.kotlin-toolkit:readium-shared",   version = "3.0.0" }
 r2_streamer = { module = "org.readium.kotlin-toolkit:readium-streamer", version = "3.0.0" }
 
-readium_lcp = { module = "readium:liblcp", version = "4.1.0" }
+# Deprecated
+readium_lcp   = { module = "readium:liblcp", version = "4.1.0" }
+# LCP replacement on S3
+palace_liblcp = { module = "org.thepalaceproject.drm.lcp:org.thepalaceproject.drm.lcp", version = "4.1.2" }
 
 palace_drm_adobe = { module = "org.thepalaceproject.drm.adobe:org.thepalaceproject.drm.adobe.provider", version = "2.1.0" }
 palace_drm_core  = { module = "org.thepalaceproject.drm:org.thepalaceproject.drm.core",                 version = "2.1.0" }
