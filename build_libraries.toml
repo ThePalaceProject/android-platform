@@ -160,6 +160,9 @@ androidx_viewpager = { module = "androidx.viewpager:viewpager", version = "1.0.0
 androidx_viewpager2 = { module = "androidx.viewpager2:viewpager2", version = "1.0.0" }
 androidx_webkit = { module = "androidx.webkit:webkit", version = "1.7.0" }
 
+# https://developer.android.com/studio/write/java8-support.html
+android_desugaring = { module = "com.android.tools:desugar_jdk_libs", version = "2.0.3" }
+
 #------------------------------------------------------------------------
 # Kotlin
 #------------------------------------------------------------------------
