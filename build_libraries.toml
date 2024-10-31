@@ -38,6 +38,8 @@ okio                                  =  "3.5.0"
 orgjson                               =  "20200518"
 osgi_bundle_annotation                =  "1.0.0"
 osgi_bundle_version_annotation        =  "1.0.0"
+palace_drm_adobe                      =  "2.1.0"
+palace_drm_core                       =  "2.2.0-SNAPSHOT"
 palace_audiobook                      =  "16.0.0-SNAPSHOT"
 palace_findaway                       =  "7.0.0"
 palace_http                           =  "1.7.0-SNAPSHOT"
@@ -372,8 +374,8 @@ readium_lcp   = { module = "readium:liblcp", version = "4.1.0" }
 # LCP replacement on S3
 palace_liblcp = { module = "org.thepalaceproject.drm.lcp:org.thepalaceproject.drm.lcp", version = "4.1.2" }
 
-palace_drm_adobe = { module = "org.thepalaceproject.drm.adobe:org.thepalaceproject.drm.adobe.provider", version = "2.1.0" }
-palace_drm_core  = { module = "org.thepalaceproject.drm:org.thepalaceproject.drm.core",                 version = "2.1.0" }
+palace_drm_adobe = { module = "org.thepalaceproject.drm.adobe:org.thepalaceproject.drm.adobe.provider", version.ref = "palace_drm_adobe" }
+palace_drm_core  = { module = "org.thepalaceproject.drm:org.thepalaceproject.drm.core",                 version.ref = "palace_drm_core" }
 nypl_readium     = { module = "org.librarysimplified:org.librarysimplified.readium", version = "0.30.0" }
 
 jsoup = { module = "org.jsoup:jsoup", version = "1.7.2" }
