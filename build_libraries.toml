@@ -20,12 +20,12 @@ io7m_junreachable                     =  "1.0.2"
 irradia_fieldrush                     =  "0.0.17"
 irradia_mime                          =  "1.1.1"
 irradia_opds2                         =  "0.0.7"
-jackson                               =  "2.10.2"
-jackson_kotlin                        =  "2.9.9"
+jackson                               =  "2.19.0"
 javax_annotation_api                  =  "1.3.2"
 jcip                                  =  "1.0.2"
 jcip_annotations                      =  "1.0-1"
 joda_time                             =  "2.10.10"
+jqwik                                 =  "1.9.3"
 kxml                                  =  "2.3.0"
 leak_canary                           =  "2.1"
 logback_android                       =  "3.0.0"
@@ -42,7 +42,7 @@ palace_drm_adobe                      =  "2.1.0"
 palace_drm_core                       =  "2.2.0"
 palace_audiobook                      =  "16.1.0"
 palace_findaway                       =  "7.0.0"
-palace_http                           =  "1.7.0"
+palace_http                           =  "1.8.0-SNAPSHOT"
 palace_overdrive                      =  "2.1.0"
 palace_r2                             =  "6.7.0"
 palace_theme                          =  "1.4.0"
@@ -220,6 +220,13 @@ junit_jupiter_engine   = { module = "org.junit.jupiter:junit-jupiter-engine", ve
 opentest               = { module = "org.opentest4j:opentest4j", version = "1.3.0" }
 
 #------------------------------------------------------------------------
+# JUnit
+#------------------------------------------------------------------------
+
+jqwik_api    = { module = "net.jqwik:jqwik-api", version.ref = "jqwik" }
+jqwik_engine = { module = "net.jqwik:jqwik-engine", version.ref = "jqwik" }
+
+#------------------------------------------------------------------------
 # Mockito
 #------------------------------------------------------------------------
 
@@ -243,10 +250,14 @@ reactive_streams   = { module = "org.reactivestreams:reactive-streams", version 
 # Jackson JSON.
 #------------------------------------------------------------------------
 
-jackson_core        = { module = "com.fasterxml.jackson.core:jackson-core", version.ref = "jackson" }
-jackson_databind    = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson" }
-jackson_annotations = { module = "com.fasterxml.jackson.core:jackson-annotations", version.ref = "jackson" }
-jackson_kotlin      = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson_kotlin" }
+jackson_core           = { module = "com.fasterxml.jackson.core:jackson-core", version.ref = "jackson" }
+jackson_databind       = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson" }
+jackson_annotations    = { module = "com.fasterxml.jackson.core:jackson-annotations", version.ref = "jackson" }
+jackson_dataformat_xml = { module = "com.fasterxml.jackson.dataformat:jackson-dataformat-xml", version.ref = "jackson" }
+jackson_kotlin         = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson" }
+jackson_module_jaxb    = { module = "com.fasterxml.jackson.module:jackson-module-jaxb-annotations", version.ref = "jackson"}
+
+woodstock_stax = { module = "org.codehaus.woodstox:stax2-api", version = "4.2.2" }
 
 #------------------------------------------------------------------------
 # Audiobooks JWT handling.
