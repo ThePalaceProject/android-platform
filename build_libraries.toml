@@ -532,3 +532,4 @@ slf4j                          = { module = "org.slf4j:slf4j-api", version.ref =
 ulid_kotlin                    = { module = "com.aallam.ulid:ulid-kotlin", version.ref = "ulid" }
 ulid_kotlin_jvm                = { module = "com.aallam.ulid:ulid-kotlin-jvm", version.ref = "ulid" }
 xmlpull                        = { module = "xmlpull:xmlpull", version.ref = "xmlpull" }
+stduritemplate                 = { module = "io.github.std-uritemplate:std-uritemplate", version = "2.0.3" }
