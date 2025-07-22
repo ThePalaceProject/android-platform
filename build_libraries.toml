@@ -14,9 +14,14 @@ google_play_services_base             =  "18.2.0"
 google_play_services_location         =  "21.0.1"
 google_play_services_measurement_api  =  "21.3.0"
 google_play_services_tasks            =  "18.0.2"
+io7m_anethum                          =  "1.1.1"
+io7m_blackthorne                      =  "2.0.2"
 io7m_jfunctional                      =  "1.3.0"
+io7m_jlexing                          =  "3.2.0"
 io7m_jnull                            =  "1.0.2"
 io7m_junreachable                     =  "1.0.2"
+io7m_jxe                              =  "2.0.0"
+io7m_trasco                           =  "3.0.0"
 irradia_fieldrush                     =  "0.0.17"
 irradia_mime                          =  "1.1.1"
 irradia_opds2                         =  "0.0.7"
@@ -38,10 +43,10 @@ okio                                  =  "3.5.0"
 orgjson                               =  "20200518"
 osgi_bundle_annotation                =  "1.0.0"
 osgi_bundle_version_annotation        =  "1.0.0"
-palace_drm_adobe                      =  "2.1.0"
-palace_drm_core                       =  "3.1.0"
-palace_drm_boundless                  =  "1.2.0"
 palace_audiobook                      =  "16.1.0"
+palace_drm_adobe                      =  "2.1.0"
+palace_drm_boundless                  =  "1.1.0"
+palace_drm_core                       =  "3.1.0"
 palace_findaway                       =  "7.0.0"
 palace_http                           =  "1.8.0"
 palace_overdrive                      =  "2.1.0"
@@ -56,9 +61,11 @@ rxjava                                =  "1.3.8"
 rxjava2                               =  "2.2.21"
 rxjava2_extensions                    =  "0.20.10"
 slf4j                                 =  "2.0.7"
+sqlite                                =  "3.46.1.0"
 transifex                             =  "1.3.0"
 truevfs                               =  "0.14.0"
 ulid                                  =  "1.3.0"
+xerces                                = "2.12.2"
 xmlpull                               =  "1.1.3.1"
 
 [libraries]
@@ -492,6 +499,26 @@ play_services_location            = { module = "com.google.android.gms:play-serv
 # A PDFium fork that's compatible with AndroidX without the Jetifier
 # https://github.com/tibbi/PdfiumAndroid/
 pdfium_android = { module = "com.github.tibbi:PdfiumAndroid", version = "ff9cdff7c8" }
+
+#------------------------------------------------------------------------
+# SQLite
+#------------------------------------------------------------------------
+
+io7m_anethum_api         = { module = "com.io7m.anethum:com.io7m.anethum.api", version.ref = "io7m_anethum" }
+io7m_blackthorne_core    = { module = "com.io7m.blackthorne:com.io7m.blackthorne.core", version.ref = "io7m_blackthorne" }
+io7m_blackthorne_jxe     = { module = "com.io7m.blackthorne:com.io7m.blackthorne.jxe", version.ref = "io7m_blackthorne" }
+io7m_jaffirm_core        = { module = "com.io7m.jaffirm:com.io7m.jaffirm.core", version = "4.0.1" }
+io7m_jlexing_core        = { module = "com.io7m.jlexing:com.io7m.jlexing.core", version.ref = "io7m_jlexing" }
+io7m_jxe_core            = { module = "com.io7m.jxe:com.io7m.jxe.core", version.ref = "io7m_jxe" }
+io7m_seltzer_api         = { module = "com.io7m.seltzer:com.io7m.seltzer.api", version = "1.1.0" }
+io7m_trasco_api          = { module = "com.io7m.trasco:com.io7m.trasco.api", version.ref = "io7m_trasco" }
+io7m_trasco_vanilla      = { module = "com.io7m.trasco:com.io7m.trasco.vanilla", version.ref = "io7m_trasco" }
+io7m_trasco_xml_schemas  = { module = "com.io7m.trasco:com.io7m.trasco.xml.schemas", version.ref = "io7m_trasco" }
+io7m_xyloid_natives      = { module = "com.io7m.xyloid:com.io7m.xyloid.natives", version.ref = "sqlite" }
+stax                     = { module = "stax:stax", version = "1.2.0" }
+stax_api                 = { module = "javax.xml.stream:stax-api", version = "1.0-2" }
+xerces                   = { module = "xerces:xercesImpl", version.ref = "xerces" }
+xerial_sqlite            = { module = "org.xerial:sqlite-jdbc", version.ref = "sqlite" }
 
 #------------------------------------------------------------------------
 # Various core libraries.
