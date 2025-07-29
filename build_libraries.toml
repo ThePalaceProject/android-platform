@@ -240,6 +240,7 @@ jqwik_engine = { module = "net.jqwik:jqwik-engine", version.ref = "jqwik" }
 
 mockito_core    = { module = "org.mockito:mockito-core", version = "5.18.0" }
 mockito_android = { module = "org.mockito:mockito-android", version = "5.18.0" }
+mockito_kotlin  = { module = "org.mockito.kotlin:mockito-kotlin", version = "5.4.0" }
 bytebuddy       = { module = "net.bytebuddy:byte-buddy", version = "1.17.6" }
 bytebuddy_agent = { module = "net.bytebuddy:byte-buddy-agent", version = "1.17.6" }
 objenesis       = { module = "org.objenesis:objenesis", version = "3.4" }
