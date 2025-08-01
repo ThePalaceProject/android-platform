@@ -14,9 +14,14 @@ google_play_services_base             =  "18.2.0"
 google_play_services_location         =  "21.0.1"
 google_play_services_measurement_api  =  "21.3.0"
 google_play_services_tasks            =  "18.0.2"
+io7m_anethum                          =  "1.1.1"
+io7m_blackthorne                      =  "2.0.2"
 io7m_jfunctional                      =  "1.3.0"
+io7m_jlexing                          =  "3.2.0"
 io7m_jnull                            =  "1.0.2"
 io7m_junreachable                     =  "1.0.2"
+io7m_jxe                              =  "2.0.0"
+io7m_trasco                           =  "3.0.0"
 irradia_fieldrush                     =  "0.0.17"
 irradia_mime                          =  "1.1.1"
 irradia_opds2                         =  "0.0.7"
@@ -38,9 +43,10 @@ okio                                  =  "3.5.0"
 orgjson                               =  "20200518"
 osgi_bundle_annotation                =  "1.0.0"
 osgi_bundle_version_annotation        =  "1.0.0"
-palace_drm_adobe                      =  "2.1.0"
-palace_drm_core                       =  "2.3.1-SNAPSHOT"
 palace_audiobook                      =  "16.1.0"
+palace_drm_adobe                      =  "2.1.0"
+palace_drm_boundless                  =  "1.2.0"
+palace_drm_core                       =  "3.2.0"
 palace_findaway                       =  "7.0.0"
 palace_http                           =  "1.8.0"
 palace_overdrive                      =  "2.1.0"
@@ -55,9 +61,11 @@ rxjava                                =  "1.3.8"
 rxjava2                               =  "2.2.21"
 rxjava2_extensions                    =  "0.20.10"
 slf4j                                 =  "2.0.7"
+sqlite                                =  "3.46.1.0"
 transifex                             =  "1.3.0"
 truevfs                               =  "0.14.0"
 ulid                                  =  "1.3.0"
+xerces                                = "2.12.2"
 xmlpull                               =  "1.1.3.1"
 
 [libraries]
@@ -230,12 +238,12 @@ jqwik_engine = { module = "net.jqwik:jqwik-engine", version.ref = "jqwik" }
 # Mockito
 #------------------------------------------------------------------------
 
-mockito_core    = { module = "org.mockito:mockito-core", version = "5.5.0" }
-mockito_android = { module = "org.mockito:mockito-android", version = "5.5.0" }
-mockito_kotlin  = { module = "org.mockito.kotlin:mockito-kotlin", version = "3.2.0" }
-bytebuddy       = { module = "net.bytebuddy:byte-buddy", version = "1.14.7" }
-bytebuddy_agent = { module = "net.bytebuddy:byte-buddy-agent", version = "1.14.7" }
-objenesis       = { module = "org.objenesis:objenesis", version = "3.3" }
+mockito_core    = { module = "org.mockito:mockito-core", version = "5.18.0" }
+mockito_android = { module = "org.mockito:mockito-android", version = "5.18.0" }
+mockito_kotlin  = { module = "org.mockito.kotlin:mockito-kotlin", version = "5.4.0" }
+bytebuddy       = { module = "net.bytebuddy:byte-buddy", version = "1.17.6" }
+bytebuddy_agent = { module = "net.bytebuddy:byte-buddy-agent", version = "1.17.6" }
+objenesis       = { module = "org.objenesis:objenesis", version = "3.4" }
 
 #------------------------------------------------------------------------
 # rxjava and reactive streams.
@@ -307,6 +315,7 @@ palace_audiobook_manifest_parser_api           = { module = "org.thepalaceprojec
 palace_audiobook_manifest_parser_extension_spi = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_parser.extension_spi", version.ref = "palace_audiobook" }
 palace_audiobook_manifest_parser_webpub        = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_parser.webpub", version.ref = "palace_audiobook" }
 palace_audiobook_mocking                       = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.mocking", version.ref = "palace_audiobook" }
+palace_audiobook_persistence                   = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.persistence", version.ref = "palace_audiobook" }
 palace_audiobook_media3                        = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.media3", version.ref = "palace_audiobook" }
 palace_audiobook_parser_api                    = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.parser.api", version.ref = "palace_audiobook" }
 palace_audiobook_time_tracking                 = { module = "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.time_tracking", version.ref = "palace_audiobook" }
@@ -390,6 +399,10 @@ palace_drm_core  = { module = "org.thepalaceproject.drm:org.thepalaceproject.drm
 nypl_readium     = { module = "org.librarysimplified:org.librarysimplified.readium", version = "0.30.0" }
 
 jsoup = { module = "org.jsoup:jsoup", version = "1.7.2" }
+
+palace_drm_boundless_core    = { module = "org.thepalaceproject.drm.boundless:org.thepalaceproject.drm.boundless.core", version.ref = "palace_drm_boundless" }
+palace_drm_boundless_readium = { module = "org.thepalaceproject.drm.boundless:org.thepalaceproject.drm.boundless.readium", version.ref = "palace_drm_boundless" }
+palace_drm_boundless_service = { module = "org.thepalaceproject.drm.boundless:org.thepalaceproject.drm.boundless.service", version.ref = "palace_drm_boundless" }
 
 #------------------------------------------------------------------------
 # Palace theme.
@@ -489,6 +502,26 @@ play_services_location            = { module = "com.google.android.gms:play-serv
 pdfium_android = { module = "com.github.tibbi:PdfiumAndroid", version = "ff9cdff7c8" }
 
 #------------------------------------------------------------------------
+# SQLite
+#------------------------------------------------------------------------
+
+io7m_anethum_api         = { module = "com.io7m.anethum:com.io7m.anethum.api", version.ref = "io7m_anethum" }
+io7m_blackthorne_core    = { module = "com.io7m.blackthorne:com.io7m.blackthorne.core", version.ref = "io7m_blackthorne" }
+io7m_blackthorne_jxe     = { module = "com.io7m.blackthorne:com.io7m.blackthorne.jxe", version.ref = "io7m_blackthorne" }
+io7m_jaffirm_core        = { module = "com.io7m.jaffirm:com.io7m.jaffirm.core", version = "4.0.1" }
+io7m_jlexing_core        = { module = "com.io7m.jlexing:com.io7m.jlexing.core", version.ref = "io7m_jlexing" }
+io7m_jxe_core            = { module = "com.io7m.jxe:com.io7m.jxe.core", version.ref = "io7m_jxe" }
+io7m_seltzer_api         = { module = "com.io7m.seltzer:com.io7m.seltzer.api", version = "1.1.0" }
+io7m_trasco_api          = { module = "com.io7m.trasco:com.io7m.trasco.api", version.ref = "io7m_trasco" }
+io7m_trasco_vanilla      = { module = "com.io7m.trasco:com.io7m.trasco.vanilla", version.ref = "io7m_trasco" }
+io7m_trasco_xml_schemas  = { module = "com.io7m.trasco:com.io7m.trasco.xml.schemas", version.ref = "io7m_trasco" }
+io7m_xyloid_natives      = { module = "com.io7m.xyloid:com.io7m.xyloid.natives", version.ref = "sqlite" }
+stax                     = { module = "stax:stax", version = "1.2.0" }
+stax_api                 = { module = "javax.xml.stream:stax-api", version = "1.0-2" }
+xerces                   = { module = "xerces:xercesImpl", version.ref = "xerces" }
+xerial_sqlite            = { module = "org.xerial:sqlite-jdbc", version.ref = "sqlite" }
+
+#------------------------------------------------------------------------
 # Various core libraries.
 
 commons_io                     = { module = "commons-io:commons-io", version = "2.16.1" }
@@ -527,3 +560,4 @@ slf4j                          = { module = "org.slf4j:slf4j-api", version.ref =
 ulid_kotlin                    = { module = "com.aallam.ulid:ulid-kotlin", version.ref = "ulid" }
 ulid_kotlin_jvm                = { module = "com.aallam.ulid:ulid-kotlin-jvm", version.ref = "ulid" }
 xmlpull                        = { module = "xmlpull:xmlpull", version.ref = "xmlpull" }
+stduritemplate                 = { module = "io.github.std-uritemplate:std-uritemplate", version = "2.0.3" }
