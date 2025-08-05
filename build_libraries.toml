@@ -44,7 +44,7 @@ orgjson                               =  "20200518"
 osgi_bundle_annotation                =  "1.0.0"
 osgi_bundle_version_annotation        =  "1.0.0"
 palace_audiobook                      =  "17.0.0-SNAPSHOT"
-palace_drm_adobe                      =  "2.1.0"
+palace_drm_adobe                      =  "3.0.0"
 palace_drm_boundless                  =  "1.2.0"
 palace_drm_core                       =  "3.2.0"
 palace_findaway                       =  "7.0.0"
@@ -396,7 +396,6 @@ palace_liblcp = { module = "org.thepalaceproject.drm.lcp:org.thepalaceproject.dr
 
 palace_drm_adobe = { module = "org.thepalaceproject.drm.adobe:org.thepalaceproject.drm.adobe.provider", version.ref = "palace_drm_adobe" }
 palace_drm_core  = { module = "org.thepalaceproject.drm:org.thepalaceproject.drm.core",                 version.ref = "palace_drm_core" }
-nypl_readium     = { module = "org.librarysimplified:org.librarysimplified.readium", version = "0.30.0" }
 
 jsoup = { module = "org.jsoup:jsoup", version = "1.7.2" }
 
