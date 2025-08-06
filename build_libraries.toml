@@ -61,7 +61,7 @@ rxjava                                =  "1.3.8"
 rxjava2                               =  "2.2.21"
 rxjava2_extensions                    =  "0.20.10"
 slf4j                                 =  "2.0.7"
-sqlite                                =  "3.46.1.0"
+sqlite                                =  "3.50.3.0"
 transifex                             =  "1.3.0"
 truevfs                               =  "0.14.0"
 ulid                                  =  "1.3.0"
@@ -95,12 +95,12 @@ androidx_core_splashscreen = { module = "androidx.core:core-splashscreen", versi
 androidx_cursoradapter = { module = "androidx.cursoradapter:cursoradapter", version = "1.0.0" }
 androidx_customview = { module = "androidx.customview:customview", version = "1.1.0" }
 androidx_customview_poolingcontainer = { module = "androidx.customview:customview-poolingcontainer", version = "1.0.0" }
-androidx_datastore_android = { module = "androidx.datastore:datastore-android", version = "1.1.0-alpha04" }
-androidx_datastore_core = { module = "androidx.datastore:datastore-core", version = "1.0.0" }
-androidx_datastore_core_android = { module = "androidx.datastore:datastore-core-android", version = "1.1.0-alpha04" }
-androidx_datastore_core_okio = { module = "androidx.datastore:datastore-core-okio", version = "1.1.0-alpha04" }
-androidx_datastore_preferences = { module = "androidx.datastore:datastore-preferences", version = "1.0.0" }
-androidx_datastore_preferences_core = { module = "androidx.datastore:datastore-preferences-core", version = "1.0.0" }
+androidx_datastore_android = { module = "androidx.datastore:datastore-android", version = "1.1.7" }
+androidx_datastore_core = { module = "androidx.datastore:datastore-core", version = "1.1.7" }
+androidx_datastore_core_android = { module = "androidx.datastore:datastore-core-android", version = "1.1.7" }
+androidx_datastore_core_okio = { module = "androidx.datastore:datastore-core-okio", version = "1.1.7" }
+androidx_datastore_preferences = { module = "androidx.datastore:datastore-preferences", version = "1.1.7" }
+androidx_datastore_preferences_core = { module = "androidx.datastore:datastore-preferences-core", version = "1.1.7" }
 androidx_documentfile = { module = "androidx.documentfile:documentfile", version = "1.0.1" }
 androidx_drawerlayout = { module = "androidx.drawerlayout:drawerlayout", version = "1.2.0" }
 androidx_dynamicanimation = { module = "androidx.dynamicanimation:dynamicanimation", version = "1.1.0-alpha03" }
@@ -184,6 +184,12 @@ kotlinx_coroutines_android        = { module = "org.jetbrains.kotlinx:kotlinx-co
 kotlinx_coroutines_core_jvm       = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm", version = "1.7.3" }
 kotlinx_coroutines_play_services  = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services", version = "1.7.3" }
 kotlinx_datetime                  = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version = "0.6.0" }
+
+kotlinx_serialization_core        = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version = "1.7.3" }
+kotlinx_serialization_core_jvm    = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm", version = "1.7.3" }
+kotlinx_serialization_json        = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version = "1.7.3" }
+kotlinx_serialization_json_jvm    = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm", version = "1.7.3" }
+kotlinx_serialization_protobuf    = { module = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf", version = "1.7.3" }
 
 #------------------------------------------------------------------------
 # Roboelectric
@@ -418,28 +424,6 @@ logback_classic = { module = "ch.qos.logback:logback-classic", version.ref = "lo
 logback_core    = { module = "ch.qos.logback:logback-core", version.ref = "logback_classic" }
 
 #------------------------------------------------------------------------
-# TrueVFS. Used to manipulate archives for LCP.
-#------------------------------------------------------------------------
-
-truevfs_access           = { module = "net.java.truevfs:truevfs-access",         version.ref = "truevfs" }
-truevfs_driver_zip       = { module = "net.java.truevfs:truevfs-driver-zip",     version.ref = "truevfs" }
-truevfs_driver_file      = { module = "net.java.truevfs:truevfs-driver-file",    version.ref = "truevfs" }
-truevfs_kernel_spec      = { module = "net.java.truevfs:truevfs-kernel-spec",    version.ref = "truevfs" }
-truevfs_kernel_impl      = { module = "net.java.truevfs:truevfs-kernel-impl",    version.ref = "truevfs" }
-truevfs_comp_zip         = { module = "net.java.truevfs:truevfs-comp-zip",       version.ref = "truevfs" }
-truevfs_comp_zipdriver   = { module = "net.java.truevfs:truevfs-comp-zipdriver", version.ref = "truevfs" }
-service_wight_core       = { module = "global.namespace.service-wight:service-wight-core", version = "0.6.0" }
-service_wight_annotation = { module = "global.namespace.service-wight:service-wight-annotation", version = "0.6.0" }
-truecommons_key_disable  = { module = "net.java.truecommons:truecommons-key-disable", version = "2.5.0" }
-truecommons_key_spec     = { module = "net.java.truecommons:truecommons-key-spec",    version = "2.5.0" }
-truecommons_shed         = { module = "net.java.truecommons:truecommons-shed",        version = "2.5.0" }
-truecommons_cio          = { module = "net.java.truecommons:truecommons-cio",         version = "2.5.0" }
-truecommons_io           = { module = "net.java.truecommons:truecommons-io",          version = "2.5.0" }
-truecommons_services     = { module = "net.java.truecommons:truecommons-services",    version = "2.5.0" }
-truecommons_logging      = { module = "net.java.truecommons:truecommons-logging",     version = "2.5.0" }
-commons_compress         = { module = "org.apache.commons:commons-compress",          version = "1.23.0" }
-
-#------------------------------------------------------------------------
 # Transifex
 #------------------------------------------------------------------------
 
@@ -453,26 +437,22 @@ moznion_uribuildertiny = { module = "net.moznion:uribuilder-tiny", version = "2.
 # Firebase
 #------------------------------------------------------------------------
 
-firebase_analytics             = { module = "com.google.firebase:firebase-analytics", version = "21.3.0" }
-firebase_annotations           = { module = "com.google.firebase:firebase-annotations", version = "16.2.0" }
-firebase_common                = { module = "com.google.firebase:firebase-common", version = "20.4.2" }
-firebase_common_ktx            = { module = "com.google.firebase:firebase-common-ktx", version = "20.4.2" }
-firebase_components            = { module = "com.google.firebase:firebase-components", version = "17.1.0" }
+firebase_analytics             = { module = "com.google.firebase:firebase-analytics", version = "23.0.0" }
+firebase_annotations           = { module = "com.google.firebase:firebase-annotations", version = "17.0.0" }
+firebase_common                = { module = "com.google.firebase:firebase-common", version = "22.0.0" }
+firebase_components            = { module = "com.google.firebase:firebase-components", version = "19.0.0" }
 firebase_config_interop        = { module = "com.google.firebase:firebase-config-interop", version = "16.0.1" }
-firebase_crashlytics           = { module = "com.google.firebase:firebase-crashlytics", version = "18.6.2" }
-firebase_datatransport         = { module = "com.google.firebase:firebase-datatransport", version = "18.2.0" }
-firebase_dynamic_links         = { module = "com.google.firebase:firebase-dynamic-links", version = "21.1.0" }
-firebase_dynamic_links_ktx     = { module = "com.google.firebase:firebase-dynamic-links-ktx", version = "21.1.0" }
+firebase_crashlytics           = { module = "com.google.firebase:firebase-crashlytics", version = "20.0.0" }
+firebase_datatransport         = { module = "com.google.firebase:firebase-datatransport", version = "20.0.0" }
 firebase_encoders              = { module = "com.google.firebase:firebase-encoders", version = "17.0.0" }
 firebase_encoders_json         = { module = "com.google.firebase:firebase-encoders-json", version = "18.0.1" }
 firebase_encoders_proto        = { module = "com.google.firebase:firebase-encoders-proto", version = "16.0.0" }
 firebase_iid_interop           = { module = "com.google.firebase:firebase-iid-interop", version = "17.1.0" }
-firebase_installations         = { module = "com.google.firebase:firebase-installations", version = "17.1.4" }
-firebase_installations_interop = { module = "com.google.firebase:firebase-installations-interop", version = "17.1.0" }
-firebase_measurement_connector = { module = "com.google.firebase:firebase-measurement-connector", version = "20.0.0" }
-firebase_messaging             = { module = "com.google.firebase:firebase-messaging", version = "23.2.1"}
-firebase_messaging_ktx         = { module = "com.google.firebase:firebase-messaging-ktx", version = "23.2.1"}
-firebase_sessions              = { module = "com.google.firebase:firebase-sessions", version = "1.2.2" }
+firebase_installations         = { module = "com.google.firebase:firebase-installations", version = "19.0.0" }
+firebase_installations_interop = { module = "com.google.firebase:firebase-installations-interop", version = "17.2.0" }
+firebase_measurement_connector = { module = "com.google.firebase:firebase-measurement-connector", version = "20.0.1" }
+firebase_messaging             = { module = "com.google.firebase:firebase-messaging", version = "25.0.0"}
+firebase_sessions              = { module = "com.google.firebase:firebase-sessions", version = "3.0.0" }
 
 transport_api         = { module = "com.google.android.datatransport:transport-api", version = "3.0.0" }
 transport_backend_cct = { module = "com.google.android.datatransport:transport-backend-cct", version = "3.1.9" }
@@ -523,6 +503,7 @@ xerial_sqlite            = { module = "org.xerial:sqlite-jdbc", version.ref = "s
 #------------------------------------------------------------------------
 # Various core libraries.
 
+commons_compress               = { module = "org.apache.commons:commons-compress", version = "1.23.0" }
 commons_io                     = { module = "commons-io:commons-io", version = "2.16.1" }
 google_auto_value              = { module = "com.google.auto.value:auto-value-annotations", version.ref = "google_auto_value" }
 google_auto_value_processor    = { module = "com.google.auto.value:auto-value", version.ref = "google_auto_value" }
@@ -556,7 +537,7 @@ picasso                        = { module = "com.squareup.picasso:picasso", vers
 quicktheories                  = { module = "org.quicktheories:quicktheories", version.ref = "quicktheories" }
 rxandroid2                     = { module = "io.reactivex.rxjava2:rxandroid", version.ref = "rxandroid" }
 slf4j                          = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
+stduritemplate                 = { module = "io.github.std-uritemplate:std-uritemplate", version = "2.0.3" }
 ulid_kotlin                    = { module = "com.aallam.ulid:ulid-kotlin", version.ref = "ulid" }
 ulid_kotlin_jvm                = { module = "com.aallam.ulid:ulid-kotlin-jvm", version.ref = "ulid" }
 xmlpull                        = { module = "xmlpull:xmlpull", version.ref = "xmlpull" }
-stduritemplate                 = { module = "io.github.std-uritemplate:std-uritemplate", version = "2.0.3" }
