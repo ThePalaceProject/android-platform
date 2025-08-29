@@ -398,7 +398,7 @@ r2_streamer = { module = "org.readium.kotlin-toolkit:readium-streamer", version 
 # Deprecated
 readium_lcp   = { module = "readium:liblcp", version = "4.1.0" }
 # LCP replacement on S3
-palace_liblcp = { module = "org.thepalaceproject.drm.lcp:org.thepalaceproject.drm.lcp", version = "4.1.2" }
+palace_liblcp = { module = "org.thepalaceproject.drm.lcp:org.thepalaceproject.drm.lcp", version = "4.2.2" }
 
 palace_drm_adobe = { module = "org.thepalaceproject.drm.adobe:org.thepalaceproject.drm.adobe.provider", version.ref = "palace_drm_adobe" }
 palace_drm_core  = { module = "org.thepalaceproject.drm:org.thepalaceproject.drm.core",                 version.ref = "palace_drm_core" }
