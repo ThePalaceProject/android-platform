@@ -177,19 +177,19 @@ android_desugaring = { module = "com.android.tools:desugar_jdk_libs", version = 
 # Kotlin
 #------------------------------------------------------------------------
 
-kotlin_reflect                    = { module = "org.jetbrains.kotlin:kotlin-reflect", version = "1.9.0" }
-kotlin_stdlib                     = { module = "org.jetbrains.kotlin:kotlin-stdlib", version = "1.9.0" }
-kotlinx_coroutines                = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version = "1.7.3" }
-kotlinx_coroutines_android        = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version = "1.7.3" }
-kotlinx_coroutines_core_jvm       = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm", version = "1.7.3" }
-kotlinx_coroutines_play_services  = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services", version = "1.7.3" }
-kotlinx_datetime                  = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version = "0.6.0" }
+kotlin_reflect                    = { module = "org.jetbrains.kotlin:kotlin-reflect", version = "2.1.20" }
+kotlin_stdlib                     = { module = "org.jetbrains.kotlin:kotlin-stdlib", version = "2.2.10" }
+kotlinx_coroutines                = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version = "1.10.2" }
+kotlinx_coroutines_android        = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version = "1.10.2" }
+kotlinx_coroutines_core_jvm       = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm", version = "1.10.2" }
+kotlinx_coroutines_play_services  = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services", version = "1.10.2" }
+kotlinx_datetime                  = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version = "0.6.1" }
 
-kotlinx_serialization_core        = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version = "1.7.3" }
-kotlinx_serialization_core_jvm    = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm", version = "1.7.3" }
-kotlinx_serialization_json        = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version = "1.7.3" }
-kotlinx_serialization_json_jvm    = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm", version = "1.7.3" }
-kotlinx_serialization_protobuf    = { module = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf", version = "1.7.3" }
+kotlinx_serialization_core        = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version = "1.9.0" }
+kotlinx_serialization_core_jvm    = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm", version = "1.9.0" }
+kotlinx_serialization_json        = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version = "1.9.0" }
+kotlinx_serialization_json_jvm    = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm", version = "1.9.0" }
+kotlinx_serialization_protobuf    = { module = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf", version = "1.9.0" }
 
 #------------------------------------------------------------------------
 # Roboelectric
@@ -390,10 +390,10 @@ palace_readium2_vanilla   = { module = "org.thepalaceproject.r2:org.librarysimpl
 palace_readium2_views     = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.views",     version.ref = "palace_r2" }
 palace_readium2_ui_thread = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.ui_thread", version.ref = "palace_r2" }
 
-r2_lcp      = { module = "org.readium.kotlin-toolkit:readium-lcp",      version = "3.0.0" }
-r2_opds     = { module = "org.readium.kotlin-toolkit:readium-opds",     version = "3.0.0" }
-r2_shared   = { module = "org.readium.kotlin-toolkit:readium-shared",   version = "3.0.0" }
-r2_streamer = { module = "org.readium.kotlin-toolkit:readium-streamer", version = "3.0.0" }
+r2_lcp      = { module = "org.readium.kotlin-toolkit:readium-lcp",      version = "3.1.1" }
+r2_opds     = { module = "org.readium.kotlin-toolkit:readium-opds",     version = "3.1.1" }
+r2_shared   = { module = "org.readium.kotlin-toolkit:readium-shared",   version = "3.1.1" }
+r2_streamer = { module = "org.readium.kotlin-toolkit:readium-streamer", version = "3.1.1" }
 
 # Deprecated
 readium_lcp   = { module = "readium:liblcp", version = "4.1.0" }
