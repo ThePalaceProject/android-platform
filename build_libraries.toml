@@ -475,9 +475,7 @@ play_services_location            = { module = "com.google.android.gms:play-serv
 # PDF components
 #------------------------------------------------------------------------
 
-# A PDFium fork that's compatible with AndroidX without the Jetifier
-# https://github.com/tibbi/PdfiumAndroid/
-pdfium_android = { module = "com.github.tibbi:PdfiumAndroid", version = "ff9cdff7c8" }
+pdfium_android = { module = "org.thepalaceproject.pdfium:org.thepalaceproject.pdfium.core", version = "1.0.0" }
 
 #------------------------------------------------------------------------
 # SQLite
