@@ -263,12 +263,14 @@ reactive_streams   = { module = "org.reactivestreams:reactive-streams", version 
 # Jackson JSON.
 #------------------------------------------------------------------------
 
-jackson_core           = { module = "com.fasterxml.jackson.core:jackson-core", version.ref = "jackson" }
-jackson_databind       = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson" }
-jackson_annotations    = { module = "com.fasterxml.jackson.core:jackson-annotations", version.ref = "jackson" }
-jackson_dataformat_xml = { module = "com.fasterxml.jackson.dataformat:jackson-dataformat-xml", version.ref = "jackson" }
-jackson_kotlin         = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson" }
-jackson_module_jaxb    = { module = "com.fasterxml.jackson.module:jackson-module-jaxb-annotations", version.ref = "jackson"}
+jackson_core            = { module = "com.fasterxml.jackson.core:jackson-core", version.ref = "jackson" }
+jackson_databind        = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson" }
+jackson_annotations     = { module = "com.fasterxml.jackson.core:jackson-annotations", version.ref = "jackson" }
+jackson_dataformat_xml  = { module = "com.fasterxml.jackson.dataformat:jackson-dataformat-xml", version.ref = "jackson" }
+jackson_kotlin          = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson" }
+jackson_module_jaxb     = { module = "com.fasterxml.jackson.module:jackson-module-jaxb-annotations", version.ref = "jackson"}
+jackson_datatype_jsr310 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310", version.ref = "jackson"}
+jackson_datatype_jdk8   = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jdk8", version.ref = "jackson"}
 
 woodstock_stax = { module = "org.codehaus.woodstox:stax2-api", version = "4.2.2" }
 
@@ -508,6 +510,7 @@ google_exoplayer               = { module = "com.google.android.exoplayer:exopla
 google_failureaccess           = { module = "com.google.guava:failureaccess", version.ref = "google_failureaccess" }
 google_guava                   = { module = "com.google.guava:guava", version.ref = "google_guava" }
 google_material                = { module = "com.google.android.material:material", version.ref = "google_material" }
+google_protobuf                = { module = "com.google.protobuf:protobuf-javalite", version = "4.33.1" }
 hamcrest                       = { module = "org.hamcrest:hamcrest", version = "2.2" }
 io7m_jattribute_core           = { module = "com.io7m.jattribute:com.io7m.jattribute.core", version = "1.0.1" }
 io7m_jfunctional               = { module = "com.io7m.jfunctional:io7m-jfunctional-core", version.ref = "io7m_jfunctional" }
