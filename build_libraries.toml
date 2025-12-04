@@ -274,6 +274,8 @@ jackson_datatype_jdk8   = { module = "com.fasterxml.jackson.datatype:jackson-dat
 
 woodstock_stax = { module = "org.codehaus.woodstox:stax2-api", version = "4.2.2" }
 
+io7m_dixmont_core = { module = "com.io7m.dixmont:com.io7m.dixmont.core", version = "2.1.0"}
+
 #------------------------------------------------------------------------
 # Audiobooks JWT handling.
 #------------------------------------------------------------------------
