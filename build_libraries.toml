@@ -304,7 +304,7 @@ irradia_opds2_parser_vanilla           = { module = "one.irradia.opds2_0:one.irr
 # Palace WebPub components.
 #------------------------------------------------------------------------
 
-palace_webpub_core = { module = "org.thepalaceproject.webpub:org.thepalaceproject.webpub.core", version = "0.1.0" }
+palace_webpub_core = { module = "org.thepalaceproject.webpub:org.thepalaceproject.webpub.core", version = "0.2.0" }
 
 #------------------------------------------------------------------------
 # Palace Audiobook components.
