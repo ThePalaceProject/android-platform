@@ -385,12 +385,13 @@ media3_session    = { module = "androidx.media3:media3-session", version = "1.2.
 # Palace HTTP components.
 #------------------------------------------------------------------------
 
-palace_http_api           = { module = "org.thepalaceproject.http:org.librarysimplified.http.api", version.ref = "palace_http" }
-palace_http_bearer_token  = { module = "org.thepalaceproject.http:org.librarysimplified.http.bearer_token", version.ref = "palace_http" }
-palace_http_downloads     = { module = "org.thepalaceproject.http:org.librarysimplified.http.downloads", version.ref = "palace_http" }
-palace_http_refresh_token = { module = "org.thepalaceproject.http:org.librarysimplified.http.refresh_token", version.ref = "palace_http" }
-palace_http_uri           = { module = "org.thepalaceproject.http:org.librarysimplified.http.uri_builder", version.ref = "palace_http" }
-palace_http_vanilla       = { module = "org.thepalaceproject.http:org.librarysimplified.http.vanilla", version.ref = "palace_http" }
+palace_http_api            = { module = "org.thepalaceproject.http:org.librarysimplified.http.api", version.ref = "palace_http" }
+palace_http_bearer_token   = { module = "org.thepalaceproject.http:org.librarysimplified.http.bearer_token", version.ref = "palace_http" }
+palace_http_downloads      = { module = "org.thepalaceproject.http:org.librarysimplified.http.downloads", version.ref = "palace_http" }
+palace_http_network_access = { module = "org.thepalaceproject.http:org.librarysimplified.http.network_access", version.ref = "palace_http" }
+palace_http_refresh_token  = { module = "org.thepalaceproject.http:org.librarysimplified.http.refresh_token", version.ref = "palace_http" }
+palace_http_uri            = { module = "org.thepalaceproject.http:org.librarysimplified.http.uri_builder", version.ref = "palace_http" }
+palace_http_vanilla        = { module = "org.thepalaceproject.http:org.librarysimplified.http.vanilla", version.ref = "palace_http" }
 
 #------------------------------------------------------------------------
 # Palace R2 navigator components.
