@@ -299,19 +299,12 @@ irradia_fieldrush_api                  = { module = "one.irradia.fieldrush:one.i
 irradia_fieldrush_vanilla              = { module = "one.irradia.fieldrush:one.irradia.fieldrush.vanilla", version.ref = "irradia_fieldrush" }
 irradia_mime_api                       = { module = "one.irradia.mime:one.irradia.mime.api", version.ref = "irradia_mime" }
 irradia_mime_vanilla                   = { module = "one.irradia.mime:one.irradia.mime.vanilla", version.ref = "irradia_mime" }
-irradia_opds2_api                      = { module = "one.irradia.opds2_0:one.irradia.opds2_0.api", version.ref = "irradia_opds2" }
-irradia_opds2_lexical                  = { module = "one.irradia.opds2_0:one.irradia.opds2_0.lexical", version.ref = "irradia_opds2" }
-irradia_opds2_librarysimplified        = { module = "one.irradia.opds2_0:one.irradia.opds2_0.library_simplified.api", version.ref = "irradia_opds2" }
-irradia_opds2_parser_api               = { module = "one.irradia.opds2_0:one.irradia.opds2_0.parser.api", version.ref = "irradia_opds2" }
-irradia_opds2_parser_extension_spi     = { module = "one.irradia.opds2_0:one.irradia.opds2_0.parser.extension.spi", version.ref = "irradia_opds2" }
-irradia_opds2_parser_librarysimplified = { module = "one.irradia.opds2_0:one.irradia.opds2_0.parser.extension.library_simplified", version.ref = "irradia_opds2" }
-irradia_opds2_parser_vanilla           = { module = "one.irradia.opds2_0:one.irradia.opds2_0.parser.vanilla", version.ref = "irradia_opds2" }
 
 #------------------------------------------------------------------------
 # Palace WebPub components.
 #------------------------------------------------------------------------
 
-palace_webpub_core = { module = "org.thepalaceproject.webpub:org.thepalaceproject.webpub.core", version = "0.2.1" }
+palace_webpub_core = { module = "org.thepalaceproject.webpub:org.thepalaceproject.webpub.core", version = "1.1.0" }
 
 #------------------------------------------------------------------------
 # Palace Audiobook components.
