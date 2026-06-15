@@ -187,8 +187,8 @@ androidx_car_appprojected = { module = "androidx.car.app:app-projected", version
 # Kotlin
 #------------------------------------------------------------------------
 
-kotlin_reflect                    = { module = "org.jetbrains.kotlin:kotlin-reflect", version = "2.1.20" }
-kotlin_stdlib                     = { module = "org.jetbrains.kotlin:kotlin-stdlib", version = "2.4.0" }
+kotlin_reflect                    = { module = "org.jetbrains.kotlin:kotlin-reflect", version = "2.3.0" }
+kotlin_stdlib                     = { module = "org.jetbrains.kotlin:kotlin-stdlib", version = "2.3.0" }
 kotlinx_coroutines                = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version = "1.11.0" }
 kotlinx_coroutines_android        = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version = "1.11.0" }
 kotlinx_coroutines_core_jvm       = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm", version = "1.11.0" }
