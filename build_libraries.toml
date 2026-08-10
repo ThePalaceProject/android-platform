@@ -5,6 +5,7 @@ findaway                              =  "8.2.0"
 firebase_analytics                    =  "18.0.0"
 firebase_crashlytics                  =  "17.3.0"
 firebase_dynamic_links                =  "21.1.0"
+glide                                 =  "5.0.5"
 google_auto_value                     =  "1.7"
 google_exoplayer                      =  "r1.5.15"
 google_failureaccess                  =  "1.0.1"
@@ -518,6 +519,8 @@ xerial_sqlite            = { module = "org.xerial:sqlite-jdbc", version.ref = "s
 
 commons_compress               = { module = "org.apache.commons:commons-compress", version = "1.23.0" }
 commons_io                     = { module = "commons-io:commons-io", version = "2.16.1" }
+glide_core                     = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+glide_gifdecoder               = { module = "com.github.bumptech.glide:gifdecoder", version.ref = "glide" }
 google_auto_value              = { module = "com.google.auto.value:auto-value-annotations", version.ref = "google_auto_value" }
 google_auto_value_processor    = { module = "com.google.auto.value:auto-value", version.ref = "google_auto_value" }
 google_exoplayer               = { module = "com.google.android.exoplayer:exoplayer", version.ref = "google_exoplayer" }
