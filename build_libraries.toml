@@ -521,6 +521,7 @@ commons_compress               = { module = "org.apache.commons:commons-compress
 commons_io                     = { module = "commons-io:commons-io", version = "2.16.1" }
 glide_core                     = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 glide_gifdecoder               = { module = "com.github.bumptech.glide:gifdecoder", version.ref = "glide" }
+glide_disklrucache             = { module = "com.github.bumptech.glide:disklrucache", version.ref = "glide" }
 google_auto_value              = { module = "com.google.auto.value:auto-value-annotations", version.ref = "google_auto_value" }
 google_auto_value_processor    = { module = "com.google.auto.value:auto-value", version.ref = "google_auto_value" }
 google_exoplayer               = { module = "com.google.android.exoplayer:exoplayer", version.ref = "google_exoplayer" }
