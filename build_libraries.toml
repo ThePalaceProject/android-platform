@@ -474,16 +474,16 @@ transport_runtime     = { module = "com.google.android.datatransport:transport-r
 
 play_services_ads_identifier      = { module = "com.google.android.gms:play-services-ads-identifier", version = "18.0.1" }
 play_services_base                = { module = "com.google.android.gms:play-services-base", version = "18.2.0" }
-play_services_basement            = { module = "com.google.android.gms:play-services-basement", version = "18.2.0" }
+play_services_basement            = { module = "com.google.android.gms:play-services-basement", version = "18.3.0" }
 play_services_cloud_messaging     = { module = "com.google.android.gms:play-services-cloud-messaging", version = "17.2.0" }
-play_services_measurement         = { module = "com.google.android.gms:play-services-measurement", version = "21.3.0" }
-play_services_measurement_api     = { module = "com.google.android.gms:play-services-measurement-api", version = "21.3.0" }
-play_services_measurement_base    = { module = "com.google.android.gms:play-services-measurement-base", version = "21.3.0" }
-play_services_measurement_impl    = { module = "com.google.android.gms:play-services-measurement-impl", version = "21.3.0" }
-play_services_measurement_sdk     = { module = "com.google.android.gms:play-services-measurement-sdk", version = "21.3.0" }
-play_services_measurement_sdk_api = { module = "com.google.android.gms:play-services-measurement-sdk-api", version = "21.3.0" }
+play_services_measurement         = { module = "com.google.android.gms:play-services-measurement", version = "23.0.0" }
+play_services_measurement_api     = { module = "com.google.android.gms:play-services-measurement-api", version = "23.0.0" }
+play_services_measurement_base    = { module = "com.google.android.gms:play-services-measurement-base", version = "23.0.0" }
+play_services_measurement_impl    = { module = "com.google.android.gms:play-services-measurement-impl", version = "23.0.0" }
+play_services_measurement_sdk     = { module = "com.google.android.gms:play-services-measurement-sdk", version = "23.0.0" }
+play_services_measurement_sdk_api = { module = "com.google.android.gms:play-services-measurement-sdk-api", version = "23.0.0" }
 play_services_stats               = { module = "com.google.android.gms:play-services-stats", version = "17.0.3" }
-play_services_tasks               = { module = "com.google.android.gms:play-services-tasks", version = "18.0.2" }
+play_services_tasks               = { module = "com.google.android.gms:play-services-tasks", version = "18.1.0" }
 play_services_location            = { module = "com.google.android.gms:play-services-location", version = "21.0.1" }
 
 #------------------------------------------------------------------------
