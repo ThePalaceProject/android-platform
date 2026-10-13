@@ -204,25 +204,25 @@ kotlinx_serialization_protobuf    = { module = "org.jetbrains.kotlinx:kotlinx-se
 # Roboelectric
 #------------------------------------------------------------------------
 
-robolectric                                   = { module = "org.robolectric:robolectric", version = "4.9.2" }
-robolectric_annotations                       = { module = "org.robolectric:annotations", version = "4.9.2" }
-robolectric_junit                             = { module = "org.robolectric:junit", version = "4.9.2" }
-robolectric_nativeruntime                     = { module = "org.robolectric:nativeruntime", version = "4.9.2" }
-robolectric_pluginapi                         = { module = "org.robolectric:pluginapi", version = "4.9.2" }
-robolectric_plugins_maven_dependency_resolver = { module = "org.robolectric:plugins-maven-dependency-resolver", version = "4.9.2" }
-robolectric_resources                         = { module = "org.robolectric:resources", version = "4.9.2" }
-robolectric_sandbox                           = { module = "org.robolectric:sandbox", version = "4.9.2" }
-robolectric_shadowapi                         = { module = "org.robolectric:shadowapi", version = "4.9.2" }
-robolectric_shadows_framework                 = { module = "org.robolectric:shadows-framework", version = "4.9.2" }
-robolectric_utils                             = { module = "org.robolectric:utils", version = "4.9.2" }
-robolectric_utils_reflector                   = { module = "org.robolectric:utils-reflector", version = "4.9.2" }
+robolectric                                   = { module = "org.robolectric:robolectric", version = "4.17" }
+robolectric_annotations                       = { module = "org.robolectric:annotations", version = "4.17" }
+robolectric_junit                             = { module = "org.robolectric:junit", version = "4.17" }
+robolectric_nativeruntime                     = { module = "org.robolectric:nativeruntime", version = "4.17" }
+robolectric_pluginapi                         = { module = "org.robolectric:pluginapi", version = "4.17" }
+robolectric_plugins_maven_dependency_resolver = { module = "org.robolectric:plugins-maven-dependency-resolver", version = "4.17" }
+robolectric_resources                         = { module = "org.robolectric:resources", version = "4.17" }
+robolectric_sandbox                           = { module = "org.robolectric:sandbox", version = "4.17" }
+robolectric_shadowapi                         = { module = "org.robolectric:shadowapi", version = "4.17" }
+robolectric_shadows_framework                 = { module = "org.robolectric:shadows-framework", version = "4.17" }
+robolectric_utils                             = { module = "org.robolectric:utils", version = "4.17" }
+robolectric_utils_reflector                   = { module = "org.robolectric:utils-reflector", version = "4.17" }
 
 apiguardian      = { module = "org.apiguardian:apiguardian-api", version = "1.1.2" }
 javax_inject     = { module = "javax.inject:javax.inject", version = "1" }
 ow2              = { module = "org.ow2:ow2", version = "2.0.0" }
-ow2_asm          = { module = "org.ow2.asm:asm", version = "9.5" }
-ow2_asm_tree     = { module = "org.ow2.asm:asm-tree", version = "9.5" }
-ow2_asm_commons  = { module = "org.ow2.asm:asm-commons", version = "9.5" }
+ow2_asm          = { module = "org.ow2.asm:asm", version = "9.10.1" }
+ow2_asm_tree     = { module = "org.ow2.asm:asm-tree", version = "9.10.1" }
+ow2_asm_commons  = { module = "org.ow2.asm:asm-commons", version = "9.10.1" }
 conscrypt        = { module = "org.conscrypt:conscrypt-android", version = "2.5.2" }
 
 bouncycastle        = { module = "org.bouncycastle:bcpg-jdk15on", version.ref = "bouncycastle" }
