@@ -404,10 +404,10 @@ palace_readium2_vanilla   = { module = "org.thepalaceproject.r2:org.librarysimpl
 palace_readium2_views     = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.views",     version.ref = "palace_r2" }
 palace_readium2_ui_thread = { module = "org.thepalaceproject.r2:org.librarysimplified.r2.ui_thread", version.ref = "palace_r2" }
 
-r2_lcp      = { module = "org.readium.kotlin-toolkit:readium-lcp",      version = "3.4.0" }
-r2_opds     = { module = "org.readium.kotlin-toolkit:readium-opds",     version = "3.4.0" }
-r2_shared   = { module = "org.readium.kotlin-toolkit:readium-shared",   version = "3.4.0" }
-r2_streamer = { module = "org.readium.kotlin-toolkit:readium-streamer", version = "3.4.0" }
+r2_lcp      = { module = "org.readium.kotlin-toolkit:readium-lcp",      version = "3.4.0-28e844cea7d80495ea2712fb09354b4c4d5b5116" }
+r2_opds     = { module = "org.readium.kotlin-toolkit:readium-opds",     version = "3.4.0-28e844cea7d80495ea2712fb09354b4c4d5b5116" }
+r2_shared   = { module = "org.readium.kotlin-toolkit:readium-shared",   version = "3.4.0-28e844cea7d80495ea2712fb09354b4c4d5b5116" }
+r2_streamer = { module = "org.readium.kotlin-toolkit:readium-streamer", version = "3.4.0-28e844cea7d80495ea2712fb09354b4c4d5b5116" }
 
 # Deprecated
 readium_lcp   = { module = "readium:liblcp", version = "4.1.0" }
