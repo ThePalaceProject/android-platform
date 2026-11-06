@@ -45,7 +45,7 @@ orgjson                               =  "20200518"
 osgi_bundle_annotation                =  "1.0.0"
 osgi_bundle_version_annotation        =  "1.0.0"
 palace_audiobook                      =  "24.4.0"
-palace_drm_adobe                      =  "4.1.0"
+palace_drm_adobe                      =  "5.0.0-WIPRO20260826"
 palace_drm_boundless                  =  "2.0.0"
 palace_drm_core                       =  "4.0.0"
 palace_http                           =  "2.6.0"
@@ -308,7 +308,7 @@ irradia_mime_vanilla                   = { module = "one.irradia.mime:one.irradi
 # Palace WebPub components.
 #------------------------------------------------------------------------
 
-palace_webpub_core = { module = "org.thepalaceproject.webpub:org.thepalaceproject.webpub.core", version = "1.3.0" }
+palace_webpub_core = { module = "org.thepalaceproject.webpub:org.thepalaceproject.webpub.core", version = "1.2.0" }
 
 #------------------------------------------------------------------------
 # Palace Audiobook components.
