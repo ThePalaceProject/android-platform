@@ -308,7 +308,7 @@ irradia_mime_vanilla                   = { module = "one.irradia.mime:one.irradi
 # Palace WebPub components.
 #------------------------------------------------------------------------
 
-palace_webpub_core = { module = "org.thepalaceproject.webpub:org.thepalaceproject.webpub.core", version = "1.3.0" }
+palace_webpub_core = { module = "org.thepalaceproject.webpub:org.thepalaceproject.webpub.core", version = "1.4.0" }
 
 #------------------------------------------------------------------------
 # Palace Audiobook components.
